@@ -11,15 +11,17 @@
 
 @implementation NSString (Emojize)
 
-- (NSString *)emojizedString
+- (NSDictionary *)emojizedString
 {
     return [NSString emojizedStringWithString:self];
 }
 
-+ (NSString *)emojizedStringWithString:(NSString *)text
++ (NSDictionary *)emojizedStringWithString:(NSString *)text
 {
     static dispatch_once_t onceToken;
     static NSRegularExpression *regex = nil;
+    NSMutableArray *matchingRanges = [NSMutableArray new];
+    NSMutableArray *matchingLengthChanges = [NSMutableArray new];
     dispatch_once(&onceToken, ^{
         regex = [[NSRegularExpression alloc] initWithPattern:@"(:[a-z0-9-+_]+:)" options:NSRegularExpressionCaseInsensitive error:NULL];
     });
@@ -27,19 +29,27 @@
     __block NSString *resultText = text;
     NSRange matchingRange = NSMakeRange(0, [resultText length]);
     [regex enumerateMatchesInString:resultText options:NSMatchingReportCompletion range:matchingRange usingBlock:^(NSTextCheckingResult *result, NSMatchingFlags flags, BOOL *stop) {
-         if (result && ([result resultType] == NSTextCheckingTypeRegularExpression) && !(flags & NSMatchingInternalError)) {
-             NSRange range = result.range;
-             if (range.location != NSNotFound) {
-                 NSString *code = [text substringWithRange:range];
-                 NSString *unicode = self.emojiAliases[code];
-                 if (unicode) {
-                     resultText = [resultText stringByReplacingOccurrencesOfString:code withString:unicode];
-                 }
-             }
-         }
-     }];
+        if ( result &&
+            ([result resultType] == NSTextCheckingTypeRegularExpression) &&
+            !(flags & NSMatchingInternalError) ) {
+            
+            NSRange range = result.range;
+            if (range.location != NSNotFound) {
+                NSString *code = [text substringWithRange:range];
+                NSString *unicode = self.emojiAliases[code];
+                if (unicode)
+                {
+                    resultText = [resultText stringByReplacingOccurrencesOfString:code withString:unicode];
+                    [matchingRanges addObject:[NSValue valueWithRange: range]];
+                    //range.length with be the number of characters reduced
+                    range.length -= [unicode length];
+                    [matchingLengthChanges addObject:[NSValue valueWithRange: range]];
+                }
+            }
+        }
+    }];
     
-    return resultText;
+    return @{@"emojizedString" : resultText, @"emojiRanges" : matchingRanges, @"emojiLengthChanges" : matchingLengthChanges};
 }
 
 + (NSDictionary *)emojiAliases {
