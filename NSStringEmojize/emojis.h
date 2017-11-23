@@ -1264,8 +1264,8 @@
     @":currency_exchange:" : @"\U0001f4b1", \
     @":heavy_dollar_sign:" : @"\U0001f4b2", \
     @":envelope:" : @"\U00002709", \
-    @":e-mail" : @"\U0001f4e7", \
-    @":email" : @"\U0001f4e7", \
+    @":e-mail:" : @"\U0001f4e7", \
+    @":email:" : @"\U0001f4e7", \
     @":incoming_envelope:" : @"\U0001f4e8", \
     @":envelope_with_arrow:" : @"\U0001f4e9", \
     @":outbox_tray:" : @"\U0001f4e4", \
@@ -1359,7 +1359,7 @@
     @":no_bicycles:" : @"\U0001f6b3", \
     @":no_smoking:" : @"\U0001f6ad", \
     @":do_not_litter:" : @"\U0001f6af", \
-    @":non-potable_water" : @"\U0001f6b1", \
+    @":non-potable_water:" : @"\U0001f6b1", \
     @":no_pedestrians:" : @"\U0001f6b7", \
     @":no_mobile_phones:" : @"\U0001f4f5", \
     @":underage:" : @"\U0001f51e", \
@@ -1437,7 +1437,7 @@
     @":mobile_phone_off:" : @"\U0001f4f4", \
     @":recycle:" : @"\U0000267b", \
     @":name_badge:" : @"\U0001f4db", \
-    @":fleur-de-lis" : @"\U0000269c", \
+    @":fleur-de-lis:" : @"\U0000269c", \
     @":beginner:" : @"\U0001f530", \
     @":trident:" : @"\U0001f531", \
     @":o:" : @"\U00002b55", \
