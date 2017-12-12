@@ -13,10 +13,12 @@
     @":grin:" : @"\U0001f601", \
     @":joy:" : @"\U0001f602", \
     @":rofl:" : @"\U0001f923", \
+    @":rolling_on_the_floor_laughing:" : @"\U0001f923", \
     @":smiley:" : @"\U0001f603", \
     @":smile:" : @"\U0001f604", \
     @":sweat_smile:" : @"\U0001f605", \
     @":laughing:" : @"\U0001f606", \
+    @":satisfied:" : @"\U0001f606", \
     @":wink:" : @"\U0001f609", \
     @":blush:" : @"\U0001f60a", \
     @":yum:" : @"\U0001f60b", \
@@ -28,36 +30,47 @@
     @":kissing_closed_eyes:" : @"\U0001f61a", \
     @":relaxed:" : @"\U0000263a", \
     @":slight_smile:" : @"\U0001f642", \
+    @":slightly_smiling_face:" : @"\U0001f642", \
     @":hugging:" : @"\U0001f917", \
+    @":hugging_face:" : @"\U0001f917", \
     @":thinking:" : @"\U0001f914", \
+    @":thinking_face:" : @"\U0001f914", \
     @":neutral_face:" : @"\U0001f610", \
     @":expressionless:" : @"\U0001f611", \
     @":no_mouth:" : @"\U0001f636", \
     @":rolling_eyes:" : @"\U0001f644", \
+    @":face_with_rolling_eyes:" : @"\U0001f644", \
     @":smirk:" : @"\U0001f60f", \
     @":persevere:" : @"\U0001f623", \
     @":disappointed_relieved:" : @"\U0001f625", \
     @":open_mouth:" : @"\U0001f62e", \
     @":zipper_mouth:" : @"\U0001f910", \
+    @":zipper_mouth_face:" : @"\U0001f910", \
     @":hushed:" : @"\U0001f62f", \
     @":sleepy:" : @"\U0001f62a", \
     @":tired_face:" : @"\U0001f62b", \
     @":sleeping:" : @"\U0001f634", \
     @":relieved:" : @"\U0001f60c", \
     @":nerd:" : @"\U0001f913", \
+    @":nerd_face:" : @"\U0001f913", \
     @":stuck_out_tongue:" : @"\U0001f61b", \
     @":stuck_out_tongue_winking_eye:" : @"\U0001f61c", \
     @":stuck_out_tongue_closed_eyes:" : @"\U0001f61d", \
     @":drooling_face:" : @"\U0001f924", \
+    @":drool:" : @"\U0001f924", \
     @":unamused:" : @"\U0001f612", \
     @":sweat:" : @"\U0001f613", \
     @":pensive:" : @"\U0001f614", \
     @":confused:" : @"\U0001f615", \
     @":upside_down:" : @"\U0001f643", \
+    @":upside_down_face:" : @"\U0001f643", \
     @":money_mouth:" : @"\U0001f911", \
+    @":money_mouth_face:" : @"\U0001f911", \
     @":astonished:" : @"\U0001f632", \
     @":frowning2:" : @"\U00002639", \
+    @":white_frowning_face:" : @"\U00002639", \
     @":slight_frown:" : @"\U0001f641", \
+    @":slightly_frowning_face:" : @"\U0001f641", \
     @":confounded:" : @"\U0001f616", \
     @":disappointed:" : @"\U0001f61e", \
     @":worried:" : @"\U0001f61f", \
@@ -77,24 +90,29 @@
     @":angry:" : @"\U0001f620", \
     @":innocent:" : @"\U0001f607", \
     @":cowboy:" : @"\U0001f920", \
+    @":face_with_cowboy_hat:" : @"\U0001f920", \
     @":clown:" : @"\U0001f921", \
+    @":clown_face:" : @"\U0001f921", \
     @":lying_face:" : @"\U0001f925", \
+    @":liar:" : @"\U0001f925", \
     @":mask:" : @"\U0001f637", \
     @":thermometer_face:" : @"\U0001f912", \
+    @":face_with_thermometer:" : @"\U0001f912", \
     @":head_bandage:" : @"\U0001f915", \
+    @":face_with_head_bandage:" : @"\U0001f915", \
     @":nauseated_face:" : @"\U0001f922", \
+    @":sick:" : @"\U0001f922", \
     @":sneezing_face:" : @"\U0001f927", \
+    @":sneeze:" : @"\U0001f927", \
     @":smiling_imp:" : @"\U0001f608", \
     @":imp:" : @"\U0001f47f", \
     @":japanese_ogre:" : @"\U0001f479", \
     @":japanese_goblin:" : @"\U0001f47a", \
-    @":skull:" : @"\U0001f480", \
-    @":skull_crossbones:" : @"\U00002620", \
     @":ghost:" : @"\U0001f47b", \
     @":alien:" : @"\U0001f47d", \
     @":space_invader:" : @"\U0001f47e", \
     @":robot:" : @"\U0001f916", \
-    @":poop:" : @"\U0001f4a9", \
+    @":robot_face:" : @"\U0001f916", \
     @":smiley_cat:" : @"\U0001f63a", \
     @":smile_cat:" : @"\U0001f638", \
     @":joy_cat:" : @"\U0001f639", \
@@ -108,577 +126,138 @@
     @":hear_no_evil:" : @"\U0001f649", \
     @":speak_no_evil:" : @"\U0001f64a", \
     @":boy:" : @"\U0001f466", \
-    @":boy_tone1:" : @"\U0001f466\U0001f3fb", \
-    @":boy_tone2:" : @"\U0001f466\U0001f3fc", \
-    @":boy_tone3:" : @"\U0001f466\U0001f3fd", \
-    @":boy_tone4:" : @"\U0001f466\U0001f3fe", \
-    @":boy_tone5:" : @"\U0001f466\U0001f3ff", \
     @":girl:" : @"\U0001f467", \
-    @":girl_tone1:" : @"\U0001f467\U0001f3fb", \
-    @":girl_tone2:" : @"\U0001f467\U0001f3fc", \
-    @":girl_tone3:" : @"\U0001f467\U0001f3fd", \
-    @":girl_tone4:" : @"\U0001f467\U0001f3fe", \
-    @":girl_tone5:" : @"\U0001f467\U0001f3ff", \
     @":man:" : @"\U0001f468", \
-    @":man_tone1:" : @"\U0001f468\U0001f3fb", \
-    @":man_tone2:" : @"\U0001f468\U0001f3fc", \
-    @":man_tone3:" : @"\U0001f468\U0001f3fd", \
-    @":man_tone4:" : @"\U0001f468\U0001f3fe", \
-    @":man_tone5:" : @"\U0001f468\U0001f3ff", \
     @":woman:" : @"\U0001f469", \
-    @":woman_tone1:" : @"\U0001f469\U0001f3fb", \
-    @":woman_tone2:" : @"\U0001f469\U0001f3fc", \
-    @":woman_tone3:" : @"\U0001f469\U0001f3fd", \
-    @":woman_tone4:" : @"\U0001f469\U0001f3fe", \
-    @":woman_tone5:" : @"\U0001f469\U0001f3ff", \
     @":older_man:" : @"\U0001f474", \
-    @":older_man_tone1:" : @"\U0001f474\U0001f3fb", \
-    @":older_man_tone2:" : @"\U0001f474\U0001f3fc", \
-    @":older_man_tone3:" : @"\U0001f474\U0001f3fd", \
-    @":older_man_tone4:" : @"\U0001f474\U0001f3fe", \
-    @":older_man_tone5:" : @"\U0001f474\U0001f3ff", \
     @":older_woman:" : @"\U0001f475", \
-    @":older_woman_tone1:" : @"\U0001f475\U0001f3fb", \
-    @":older_woman_tone2:" : @"\U0001f475\U0001f3fc", \
-    @":older_woman_tone3:" : @"\U0001f475\U0001f3fd", \
-    @":older_woman_tone4:" : @"\U0001f475\U0001f3fe", \
-    @":older_woman_tone5:" : @"\U0001f475\U0001f3ff", \
+    @":grandma:" : @"\U0001f475", \
     @":baby:" : @"\U0001f476", \
-    @":baby_tone1:" : @"\U0001f476\U0001f3fb", \
-    @":baby_tone2:" : @"\U0001f476\U0001f3fc", \
-    @":baby_tone3:" : @"\U0001f476\U0001f3fd", \
-    @":baby_tone4:" : @"\U0001f476\U0001f3fe", \
-    @":baby_tone5:" : @"\U0001f476\U0001f3ff", \
     @":angel:" : @"\U0001f47c", \
-    @":angel_tone1:" : @"\U0001f47c\U0001f3fb", \
-    @":angel_tone2:" : @"\U0001f47c\U0001f3fc", \
-    @":angel_tone3:" : @"\U0001f47c\U0001f3fd", \
-    @":angel_tone4:" : @"\U0001f47c\U0001f3fe", \
-    @":angel_tone5:" : @"\U0001f47c\U0001f3ff", \
     @":cop:" : @"\U0001f46e", \
-    @":cop_tone1:" : @"\U0001f46e\U0001f3fb", \
-    @":cop_tone2:" : @"\U0001f46e\U0001f3fc", \
-    @":cop_tone3:" : @"\U0001f46e\U0001f3fd", \
-    @":cop_tone4:" : @"\U0001f46e\U0001f3fe", \
-    @":cop_tone5:" : @"\U0001f46e\U0001f3ff", \
     @":spy:" : @"\U0001f575", \
-    @":spy_tone1:" : @"\U0001f575\U0001f3fb", \
-    @":spy_tone2:" : @"\U0001f575\U0001f3fc", \
-    @":spy_tone3:" : @"\U0001f575\U0001f3fd", \
-    @":spy_tone4:" : @"\U0001f575\U0001f3fe", \
-    @":spy_tone5:" : @"\U0001f575\U0001f3ff", \
+    @":sleuth_or_spy:" : @"\U0001f575", \
     @":guardsman:" : @"\U0001f482", \
-    @":guardsman_tone1:" : @"\U0001f482\U0001f3fb", \
-    @":guardsman_tone2:" : @"\U0001f482\U0001f3fc", \
-    @":guardsman_tone3:" : @"\U0001f482\U0001f3fd", \
-    @":guardsman_tone4:" : @"\U0001f482\U0001f3fe", \
-    @":guardsman_tone5:" : @"\U0001f482\U0001f3ff", \
     @":construction_worker:" : @"\U0001f477", \
-    @":construction_worker_tone1:" : @"\U0001f477\U0001f3fb", \
-    @":construction_worker_tone2:" : @"\U0001f477\U0001f3fc", \
-    @":construction_worker_tone3:" : @"\U0001f477\U0001f3fd", \
-    @":construction_worker_tone4:" : @"\U0001f477\U0001f3fe", \
-    @":construction_worker_tone5:" : @"\U0001f477\U0001f3ff", \
-    @":man_with_turban:" : @"\U0001f473", \
-    @":man_with_turban_tone1:" : @"\U0001f473\U0001f3fb", \
-    @":man_with_turban_tone2:" : @"\U0001f473\U0001f3fc", \
-    @":man_with_turban_tone3:" : @"\U0001f473\U0001f3fd", \
-    @":man_with_turban_tone4:" : @"\U0001f473\U0001f3fe", \
-    @":man_with_turban_tone5:" : @"\U0001f473\U0001f3ff", \
     @":person_with_blond_hair:" : @"\U0001f471", \
-    @":person_with_blond_hair_tone1:" : @"\U0001f471\U0001f3fb", \
-    @":person_with_blond_hair_tone2:" : @"\U0001f471\U0001f3fc", \
-    @":person_with_blond_hair_tone3:" : @"\U0001f471\U0001f3fd", \
-    @":person_with_blond_hair_tone4:" : @"\U0001f471\U0001f3fe", \
-    @":person_with_blond_hair_tone5:" : @"\U0001f471\U0001f3ff", \
     @":santa:" : @"\U0001f385", \
-    @":santa_tone1:" : @"\U0001f385\U0001f3fb", \
-    @":santa_tone2:" : @"\U0001f385\U0001f3fc", \
-    @":santa_tone3:" : @"\U0001f385\U0001f3fd", \
-    @":santa_tone4:" : @"\U0001f385\U0001f3fe", \
-    @":santa_tone5:" : @"\U0001f385\U0001f3ff", \
     @":mrs_claus:" : @"\U0001f936", \
-    @":mrs_claus_tone1:" : @"\U0001f936\U0001f3fb", \
-    @":mrs_claus_tone2:" : @"\U0001f936\U0001f3fc", \
-    @":mrs_claus_tone3:" : @"\U0001f936\U0001f3fd", \
-    @":mrs_claus_tone4:" : @"\U0001f936\U0001f3fe", \
-    @":mrs_claus_tone5:" : @"\U0001f936\U0001f3ff", \
+    @":mother_christmas:" : @"\U0001f936", \
     @":princess:" : @"\U0001f478", \
-    @":princess_tone1:" : @"\U0001f478\U0001f3fb", \
-    @":princess_tone2:" : @"\U0001f478\U0001f3fc", \
-    @":princess_tone3:" : @"\U0001f478\U0001f3fd", \
-    @":princess_tone4:" : @"\U0001f478\U0001f3fe", \
-    @":princess_tone5:" : @"\U0001f478\U0001f3ff", \
     @":prince:" : @"\U0001f934", \
-    @":prince_tone1:" : @"\U0001f934\U0001f3fb", \
-    @":prince_tone2:" : @"\U0001f934\U0001f3fc", \
-    @":prince_tone3:" : @"\U0001f934\U0001f3fd", \
-    @":prince_tone4:" : @"\U0001f934\U0001f3fe", \
-    @":prince_tone5:" : @"\U0001f934\U0001f3ff", \
     @":bride_with_veil:" : @"\U0001f470", \
-    @":bride_with_veil_tone1:" : @"\U0001f470\U0001f3fb", \
-    @":bride_with_veil_tone2:" : @"\U0001f470\U0001f3fc", \
-    @":bride_with_veil_tone3:" : @"\U0001f470\U0001f3fd", \
-    @":bride_with_veil_tone4:" : @"\U0001f470\U0001f3fe", \
-    @":bride_with_veil_tone5:" : @"\U0001f470\U0001f3ff", \
     @":man_in_tuxedo:" : @"\U0001f935", \
-    @":man_in_tuxedo_tone1:" : @"\U0001f935\U0001f3fb", \
-    @":man_in_tuxedo_tone2:" : @"\U0001f935\U0001f3fc", \
-    @":man_in_tuxedo_tone3:" : @"\U0001f935\U0001f3fd", \
-    @":man_in_tuxedo_tone4:" : @"\U0001f935\U0001f3fe", \
-    @":man_in_tuxedo_tone5:" : @"\U0001f935\U0001f3ff", \
     @":pregnant_woman:" : @"\U0001f930", \
-    @":pregnant_woman_tone1:" : @"\U0001f930\U0001f3fb", \
-    @":pregnant_woman_tone2:" : @"\U0001f930\U0001f3fc", \
-    @":pregnant_woman_tone3:" : @"\U0001f930\U0001f3fd", \
-    @":pregnant_woman_tone4:" : @"\U0001f930\U0001f3fe", \
-    @":pregnant_woman_tone5:" : @"\U0001f930\U0001f3ff", \
-    @":man_with_gua_pi_mao:" : @"\U0001f472", \
-    @":man_with_gua_pi_mao_tone1:" : @"\U0001f472\U0001f3fb", \
-    @":man_with_gua_pi_mao_tone2:" : @"\U0001f472\U0001f3fc", \
-    @":man_with_gua_pi_mao_tone3:" : @"\U0001f472\U0001f3fd", \
-    @":man_with_gua_pi_mao_tone4:" : @"\U0001f472\U0001f3fe", \
-    @":man_with_gua_pi_mao_tone5:" : @"\U0001f472\U0001f3ff", \
+    @":expecting_woman:" : @"\U0001f930", \
     @":person_frowning:" : @"\U0001f64d", \
-    @":person_frowning_tone1:" : @"\U0001f64d\U0001f3fb", \
-    @":person_frowning_tone2:" : @"\U0001f64d\U0001f3fc", \
-    @":person_frowning_tone3:" : @"\U0001f64d\U0001f3fd", \
-    @":person_frowning_tone4:" : @"\U0001f64d\U0001f3fe", \
-    @":person_frowning_tone5:" : @"\U0001f64d\U0001f3ff", \
     @":person_with_pouting_face:" : @"\U0001f64e", \
-    @":person_with_pouting_face_tone1:" : @"\U0001f64e\U0001f3fb", \
-    @":person_with_pouting_face_tone2:" : @"\U0001f64e\U0001f3fc", \
-    @":person_with_pouting_face_tone3:" : @"\U0001f64e\U0001f3fd", \
-    @":person_with_pouting_face_tone4:" : @"\U0001f64e\U0001f3fe", \
-    @":person_with_pouting_face_tone5:" : @"\U0001f64e\U0001f3ff", \
     @":no_good:" : @"\U0001f645", \
-    @":no_good_tone1:" : @"\U0001f645\U0001f3fb", \
-    @":no_good_tone2:" : @"\U0001f645\U0001f3fc", \
-    @":no_good_tone3:" : @"\U0001f645\U0001f3fd", \
-    @":no_good_tone4:" : @"\U0001f645\U0001f3fe", \
-    @":no_good_tone5:" : @"\U0001f645\U0001f3ff", \
     @":ok_woman:" : @"\U0001f646", \
-    @":ok_woman_tone1:" : @"\U0001f646\U0001f3fb", \
-    @":ok_woman_tone2:" : @"\U0001f646\U0001f3fc", \
-    @":ok_woman_tone3:" : @"\U0001f646\U0001f3fd", \
-    @":ok_woman_tone4:" : @"\U0001f646\U0001f3fe", \
-    @":ok_woman_tone5:" : @"\U0001f646\U0001f3ff", \
     @":information_desk_person:" : @"\U0001f481", \
-    @":information_desk_person_tone1:" : @"\U0001f481\U0001f3fb", \
-    @":information_desk_person_tone2:" : @"\U0001f481\U0001f3fc", \
-    @":information_desk_person_tone3:" : @"\U0001f481\U0001f3fd", \
-    @":information_desk_person_tone4:" : @"\U0001f481\U0001f3fe", \
-    @":information_desk_person_tone5:" : @"\U0001f481\U0001f3ff", \
     @":raising_hand:" : @"\U0001f64b", \
-    @":raising_hand_tone1:" : @"\U0001f64b\U0001f3fb", \
-    @":raising_hand_tone2:" : @"\U0001f64b\U0001f3fc", \
-    @":raising_hand_tone3:" : @"\U0001f64b\U0001f3fd", \
-    @":raising_hand_tone4:" : @"\U0001f64b\U0001f3fe", \
-    @":raising_hand_tone5:" : @"\U0001f64b\U0001f3ff", \
     @":bow:" : @"\U0001f647", \
-    @":bow_tone1:" : @"\U0001f647\U0001f3fb", \
-    @":bow_tone2:" : @"\U0001f647\U0001f3fc", \
-    @":bow_tone3:" : @"\U0001f647\U0001f3fd", \
-    @":bow_tone4:" : @"\U0001f647\U0001f3fe", \
-    @":bow_tone5:" : @"\U0001f647\U0001f3ff", \
     @":face_palm:" : @"\U0001f926", \
-    @":face_palm_tone1:" : @"\U0001f926\U0001f3fb", \
-    @":face_palm_tone2:" : @"\U0001f926\U0001f3fc", \
-    @":face_palm_tone3:" : @"\U0001f926\U0001f3fd", \
-    @":face_palm_tone4:" : @"\U0001f926\U0001f3fe", \
-    @":face_palm_tone5:" : @"\U0001f926\U0001f3ff", \
+    @":facepalm:" : @"\U0001f926", \
     @":shrug:" : @"\U0001f937", \
-    @":shrug_tone1:" : @"\U0001f937\U0001f3fb", \
-    @":shrug_tone2:" : @"\U0001f937\U0001f3fc", \
-    @":shrug_tone3:" : @"\U0001f937\U0001f3fd", \
-    @":shrug_tone4:" : @"\U0001f937\U0001f3fe", \
-    @":shrug_tone5:" : @"\U0001f937\U0001f3ff", \
     @":massage:" : @"\U0001f486", \
-    @":massage_tone1:" : @"\U0001f486\U0001f3fb", \
-    @":massage_tone2:" : @"\U0001f486\U0001f3fc", \
-    @":massage_tone3:" : @"\U0001f486\U0001f3fd", \
-    @":massage_tone4:" : @"\U0001f486\U0001f3fe", \
-    @":massage_tone5:" : @"\U0001f486\U0001f3ff", \
     @":haircut:" : @"\U0001f487", \
-    @":haircut_tone1:" : @"\U0001f487\U0001f3fb", \
-    @":haircut_tone2:" : @"\U0001f487\U0001f3fc", \
-    @":haircut_tone3:" : @"\U0001f487\U0001f3fd", \
-    @":haircut_tone4:" : @"\U0001f487\U0001f3fe", \
-    @":haircut_tone5:" : @"\U0001f487\U0001f3ff", \
     @":walking:" : @"\U0001f6b6", \
-    @":walking_tone1:" : @"\U0001f6b6\U0001f3fb", \
-    @":walking_tone2:" : @"\U0001f6b6\U0001f3fc", \
-    @":walking_tone3:" : @"\U0001f6b6\U0001f3fd", \
-    @":walking_tone4:" : @"\U0001f6b6\U0001f3fe", \
-    @":walking_tone5:" : @"\U0001f6b6\U0001f3ff", \
     @":runner:" : @"\U0001f3c3", \
-    @":runner_tone1:" : @"\U0001f3c3\U0001f3fb", \
-    @":runner_tone2:" : @"\U0001f3c3\U0001f3fc", \
-    @":runner_tone3:" : @"\U0001f3c3\U0001f3fd", \
-    @":runner_tone4:" : @"\U0001f3c3\U0001f3fe", \
-    @":runner_tone5:" : @"\U0001f3c3\U0001f3ff", \
     @":dancer:" : @"\U0001f483", \
-    @":dancer_tone1:" : @"\U0001f483\U0001f3fb", \
-    @":dancer_tone2:" : @"\U0001f483\U0001f3fc", \
-    @":dancer_tone3:" : @"\U0001f483\U0001f3fd", \
-    @":dancer_tone4:" : @"\U0001f483\U0001f3fe", \
-    @":dancer_tone5:" : @"\U0001f483\U0001f3ff", \
     @":man_dancing:" : @"\U0001f57a", \
-    @":man_dancing_tone1:" : @"\U0001f57a\U0001f3fb", \
-    @":man_dancing_tone2:" : @"\U0001f57a\U0001f3fc", \
-    @":man_dancing_tone3:" : @"\U0001f57a\U0001f3fd", \
-    @":man_dancing_tone4:" : @"\U0001f57a\U0001f3fe", \
-    @":man_dancing_tone5:" : @"\U0001f57a\U0001f3ff", \
+    @":male_dancer:" : @"\U0001f57a", \
     @":dancers:" : @"\U0001f46f", \
     @":levitate:" : @"\U0001f574", \
+    @":man_in_business_suit_levitating:" : @"\U0001f574", \
     @":speaking_head:" : @"\U0001f5e3", \
+    @":speaking_head_in_silhouette:" : @"\U0001f5e3", \
     @":bust_in_silhouette:" : @"\U0001f464", \
     @":busts_in_silhouette:" : @"\U0001f465", \
     @":fencer:" : @"\U0001f93a", \
+    @":fencing:" : @"\U0001f93a", \
     @":horse_racing:" : @"\U0001f3c7", \
-    @":horse_racing_tone1:" : @"\U0001f3c7\U0001f3fb", \
-    @":horse_racing_tone2:" : @"\U0001f3c7\U0001f3fc", \
-    @":horse_racing_tone3:" : @"\U0001f3c7\U0001f3fd", \
-    @":horse_racing_tone4:" : @"\U0001f3c7\U0001f3fe", \
-    @":horse_racing_tone5:" : @"\U0001f3c7\U0001f3ff", \
     @":skier:" : @"\U000026f7", \
     @":snowboarder:" : @"\U0001f3c2", \
     @":golfer:" : @"\U0001f3cc", \
     @":surfer:" : @"\U0001f3c4", \
-    @":surfer_tone1:" : @"\U0001f3c4\U0001f3fb", \
-    @":surfer_tone2:" : @"\U0001f3c4\U0001f3fc", \
-    @":surfer_tone3:" : @"\U0001f3c4\U0001f3fd", \
-    @":surfer_tone4:" : @"\U0001f3c4\U0001f3fe", \
-    @":surfer_tone5:" : @"\U0001f3c4\U0001f3ff", \
     @":rowboat:" : @"\U0001f6a3", \
-    @":rowboat_tone1:" : @"\U0001f6a3\U0001f3fb", \
-    @":rowboat_tone2:" : @"\U0001f6a3\U0001f3fc", \
-    @":rowboat_tone3:" : @"\U0001f6a3\U0001f3fd", \
-    @":rowboat_tone4:" : @"\U0001f6a3\U0001f3fe", \
-    @":rowboat_tone5:" : @"\U0001f6a3\U0001f3ff", \
     @":swimmer:" : @"\U0001f3ca", \
-    @":swimmer_tone1:" : @"\U0001f3ca\U0001f3fb", \
-    @":swimmer_tone2:" : @"\U0001f3ca\U0001f3fc", \
-    @":swimmer_tone3:" : @"\U0001f3ca\U0001f3fd", \
-    @":swimmer_tone4:" : @"\U0001f3ca\U0001f3fe", \
-    @":swimmer_tone5:" : @"\U0001f3ca\U0001f3ff", \
     @":basketball_player:" : @"\U000026f9", \
-    @":basketball_player_tone1:" : @"\U000026f9\U0001f3fb", \
-    @":basketball_player_tone2:" : @"\U000026f9\U0001f3fc", \
-    @":basketball_player_tone3:" : @"\U000026f9\U0001f3fd", \
-    @":basketball_player_tone4:" : @"\U000026f9\U0001f3fe", \
-    @":basketball_player_tone5:" : @"\U000026f9\U0001f3ff", \
+    @":person_with_ball:" : @"\U000026f9", \
     @":lifter:" : @"\U0001f3cb", \
-    @":lifter_tone1:" : @"\U0001f3cb\U0001f3fb", \
-    @":lifter_tone2:" : @"\U0001f3cb\U0001f3fc", \
-    @":lifter_tone3:" : @"\U0001f3cb\U0001f3fd", \
-    @":lifter_tone4:" : @"\U0001f3cb\U0001f3fe", \
-    @":lifter_tone5:" : @"\U0001f3cb\U0001f3ff", \
+    @":weight_lifter:" : @"\U0001f3cb", \
     @":bicyclist:" : @"\U0001f6b4", \
-    @":bicyclist_tone1:" : @"\U0001f6b4\U0001f3fb", \
-    @":bicyclist_tone2:" : @"\U0001f6b4\U0001f3fc", \
-    @":bicyclist_tone3:" : @"\U0001f6b4\U0001f3fd", \
-    @":bicyclist_tone4:" : @"\U0001f6b4\U0001f3fe", \
-    @":bicyclist_tone5:" : @"\U0001f6b4\U0001f3ff", \
     @":mountain_bicyclist:" : @"\U0001f6b5", \
-    @":mountain_bicyclist_tone1:" : @"\U0001f6b5\U0001f3fb", \
-    @":mountain_bicyclist_tone2:" : @"\U0001f6b5\U0001f3fc", \
-    @":mountain_bicyclist_tone3:" : @"\U0001f6b5\U0001f3fd", \
-    @":mountain_bicyclist_tone4:" : @"\U0001f6b5\U0001f3fe", \
-    @":mountain_bicyclist_tone5:" : @"\U0001f6b5\U0001f3ff", \
     @":race_car:" : @"\U0001f3ce", \
+    @":racing_car:" : @"\U0001f3ce", \
     @":motorcycle:" : @"\U0001f3cd", \
+    @":racing_motorcycle:" : @"\U0001f3cd", \
     @":cartwheel:" : @"\U0001f938", \
-    @":cartwheel_tone1:" : @"\U0001f938\U0001f3fb", \
-    @":cartwheel_tone2:" : @"\U0001f938\U0001f3fc", \
-    @":cartwheel_tone3:" : @"\U0001f938\U0001f3fd", \
-    @":cartwheel_tone4:" : @"\U0001f938\U0001f3fe", \
-    @":cartwheel_tone5:" : @"\U0001f938\U0001f3ff", \
-    @":wrestlers:" : @"\U0001f93c", \
-    @":wrestlers_tone1:" : @"\U0001f93c\U0001f3fb", \
-    @":wrestlers_tone2:" : @"\U0001f93c\U0001f3fc", \
-    @":wrestlers_tone3:" : @"\U0001f93c\U0001f3fd", \
-    @":wrestlers_tone4:" : @"\U0001f93c\U0001f3fe", \
-    @":wrestlers_tone5:" : @"\U0001f93c\U0001f3ff", \
+    @":person_doing_cartwheel:" : @"\U0001f938", \
     @":water_polo:" : @"\U0001f93d", \
-    @":water_polo_tone1:" : @"\U0001f93d\U0001f3fb", \
-    @":water_polo_tone2:" : @"\U0001f93d\U0001f3fc", \
-    @":water_polo_tone3:" : @"\U0001f93d\U0001f3fd", \
-    @":water_polo_tone4:" : @"\U0001f93d\U0001f3fe", \
-    @":water_polo_tone5:" : @"\U0001f93d\U0001f3ff", \
     @":handball:" : @"\U0001f93e", \
-    @":handball_tone1:" : @"\U0001f93e\U0001f3fb", \
-    @":handball_tone2:" : @"\U0001f93e\U0001f3fc", \
-    @":handball_tone3:" : @"\U0001f93e\U0001f3fd", \
-    @":handball_tone4:" : @"\U0001f93e\U0001f3fe", \
-    @":handball_tone5:" : @"\U0001f93e\U0001f3ff", \
     @":juggling:" : @"\U0001f939", \
-    @":juggling_tone1:" : @"\U0001f939\U0001f3fb", \
-    @":juggling_tone2:" : @"\U0001f939\U0001f3fc", \
-    @":juggling_tone3:" : @"\U0001f939\U0001f3fd", \
-    @":juggling_tone4:" : @"\U0001f939\U0001f3fe", \
-    @":juggling_tone5:" : @"\U0001f939\U0001f3ff", \
-    @":couple:" : @"\U0001f46b", \
-    @":two_men_holding_hands:" : @"\U0001f46c", \
-    @":two_women_holding_hands:" : @"\U0001f46d", \
-    @":couplekiss:" : @"\U0001f48f", \
-    @":kiss_mm:" : @"\U0001f468\U00002764\U0001f48b\U0001f468", \
-    @":kiss_ww:" : @"\U0001f469\U00002764\U0001f48b\U0001f469", \
-    @":couple_with_heart:" : @"\U0001f491", \
-    @":couple_mm:" : @"\U0001f468\U00002764\U0001f468", \
-    @":couple_ww:" : @"\U0001f469\U00002764\U0001f469", \
-    @":family:" : @"\U0001f46a", \
-    @":family_mwg:" : @"\U0001f468\U0001f469\U0001f467", \
-    @":family_mwgb:" : @"\U0001f468\U0001f469\U0001f467\U0001f466", \
-    @":family_mwbb:" : @"\U0001f468\U0001f469\U0001f466\U0001f466", \
-    @":family_mwgg:" : @"\U0001f468\U0001f469\U0001f467\U0001f467", \
-    @":family_mmb:" : @"\U0001f468\U0001f468\U0001f466", \
-    @":family_mmg:" : @"\U0001f468\U0001f468\U0001f467", \
-    @":family_mmgb:" : @"\U0001f468\U0001f468\U0001f467\U0001f466", \
-    @":family_mmbb:" : @"\U0001f468\U0001f468\U0001f466\U0001f466", \
-    @":family_mmgg:" : @"\U0001f468\U0001f468\U0001f467\U0001f467", \
-    @":family_wwb:" : @"\U0001f469\U0001f469\U0001f466", \
-    @":family_wwg:" : @"\U0001f469\U0001f469\U0001f467", \
-    @":family_wwgb:" : @"\U0001f469\U0001f469\U0001f467\U0001f466", \
-    @":family_wwbb:" : @"\U0001f469\U0001f469\U0001f466\U0001f466", \
-    @":family_wwgg:" : @"\U0001f469\U0001f469\U0001f467\U0001f467", \
-    @":tone1:" : @"\U0001f3fb", \
-    @":tone2:" : @"\U0001f3fc", \
-    @":tone3:" : @"\U0001f3fd", \
-    @":tone4:" : @"\U0001f3fe", \
-    @":tone5:" : @"\U0001f3ff", \
-    @":muscle:" : @"\U0001f4aa", \
-    @":muscle_tone1:" : @"\U0001f4aa\U0001f3fb", \
-    @":muscle_tone2:" : @"\U0001f4aa\U0001f3fc", \
-    @":muscle_tone3:" : @"\U0001f4aa\U0001f3fd", \
-    @":muscle_tone4:" : @"\U0001f4aa\U0001f3fe", \
-    @":muscle_tone5:" : @"\U0001f4aa\U0001f3ff", \
+    @":juggler:" : @"\U0001f939", \
     @":selfie:" : @"\U0001f933", \
-    @":selfie_tone1:" : @"\U0001f933\U0001f3fb", \
-    @":selfie_tone2:" : @"\U0001f933\U0001f3fc", \
-    @":selfie_tone3:" : @"\U0001f933\U0001f3fd", \
-    @":selfie_tone4:" : @"\U0001f933\U0001f3fe", \
-    @":selfie_tone5:" : @"\U0001f933\U0001f3ff", \
     @":point_left:" : @"\U0001f448", \
-    @":point_left_tone1:" : @"\U0001f448\U0001f3fb", \
-    @":point_left_tone2:" : @"\U0001f448\U0001f3fc", \
-    @":point_left_tone3:" : @"\U0001f448\U0001f3fd", \
-    @":point_left_tone4:" : @"\U0001f448\U0001f3fe", \
-    @":point_left_tone5:" : @"\U0001f448\U0001f3ff", \
     @":point_right:" : @"\U0001f449", \
-    @":point_right_tone1:" : @"\U0001f449\U0001f3fb", \
-    @":point_right_tone2:" : @"\U0001f449\U0001f3fc", \
-    @":point_right_tone3:" : @"\U0001f449\U0001f3fd", \
-    @":point_right_tone4:" : @"\U0001f449\U0001f3fe", \
-    @":point_right_tone5:" : @"\U0001f449\U0001f3ff", \
     @":point_up:" : @"\U0000261d", \
-    @":point_up_tone1:" : @"\U0000261d\U0001f3fb", \
-    @":point_up_tone2:" : @"\U0000261d\U0001f3fc", \
-    @":point_up_tone3:" : @"\U0000261d\U0001f3fd", \
-    @":point_up_tone4:" : @"\U0000261d\U0001f3fe", \
-    @":point_up_tone5:" : @"\U0000261d\U0001f3ff", \
     @":point_up_2:" : @"\U0001f446", \
-    @":point_up_2_tone1:" : @"\U0001f446\U0001f3fb", \
-    @":point_up_2_tone2:" : @"\U0001f446\U0001f3fc", \
-    @":point_up_2_tone3:" : @"\U0001f446\U0001f3fd", \
-    @":point_up_2_tone4:" : @"\U0001f446\U0001f3fe", \
-    @":point_up_2_tone5:" : @"\U0001f446\U0001f3ff", \
-    @":middle_finger:" : @"\U0001f595", \
-    @":middle_finger_tone1:" : @"\U0001f595\U0001f3fb", \
-    @":middle_finger_tone2:" : @"\U0001f595\U0001f3fc", \
-    @":middle_finger_tone3:" : @"\U0001f595\U0001f3fd", \
-    @":middle_finger_tone4:" : @"\U0001f595\U0001f3fe", \
-    @":middle_finger_tone5:" : @"\U0001f595\U0001f3ff", \
     @":point_down:" : @"\U0001f447", \
-    @":point_down_tone1:" : @"\U0001f447\U0001f3fb", \
-    @":point_down_tone2:" : @"\U0001f447\U0001f3fc", \
-    @":point_down_tone3:" : @"\U0001f447\U0001f3fd", \
-    @":point_down_tone4:" : @"\U0001f447\U0001f3fe", \
-    @":point_down_tone5:" : @"\U0001f447\U0001f3ff", \
     @":v:" : @"\U0000270c", \
-    @":v_tone1:" : @"\U0000270c\U0001f3fb", \
-    @":v_tone2:" : @"\U0000270c\U0001f3fc", \
-    @":v_tone3:" : @"\U0000270c\U0001f3fd", \
-    @":v_tone4:" : @"\U0000270c\U0001f3fe", \
-    @":v_tone5:" : @"\U0000270c\U0001f3ff", \
     @":fingers_crossed:" : @"\U0001f91e", \
-    @":fingers_crossed_tone1:" : @"\U0001f91e\U0001f3fb", \
-    @":fingers_crossed_tone2:" : @"\U0001f91e\U0001f3fc", \
-    @":fingers_crossed_tone3:" : @"\U0001f91e\U0001f3fd", \
-    @":fingers_crossed_tone4:" : @"\U0001f91e\U0001f3fe", \
-    @":fingers_crossed_tone5:" : @"\U0001f91e\U0001f3ff", \
+    @":hand_with_index_and_middle_finger_crossed:" : @"\U0001f91e", \
     @":vulcan:" : @"\U0001f596", \
-    @":vulcan_tone1:" : @"\U0001f596\U0001f3fb", \
-    @":vulcan_tone2:" : @"\U0001f596\U0001f3fc", \
-    @":vulcan_tone3:" : @"\U0001f596\U0001f3fd", \
-    @":vulcan_tone4:" : @"\U0001f596\U0001f3fe", \
-    @":vulcan_tone5:" : @"\U0001f596\U0001f3ff", \
+    @":raised_hand_with_part_between_middle_and_ring_fingers:" : @"\U0001f596", \
     @":metal:" : @"\U0001f918", \
-    @":metal_tone1:" : @"\U0001f918\U0001f3fb", \
-    @":metal_tone2:" : @"\U0001f918\U0001f3fc", \
-    @":metal_tone3:" : @"\U0001f918\U0001f3fd", \
-    @":metal_tone4:" : @"\U0001f918\U0001f3fe", \
-    @":metal_tone5:" : @"\U0001f918\U0001f3ff", \
+    @":sign_of_the_horns:" : @"\U0001f918", \
     @":call_me:" : @"\U0001f919", \
-    @":call_me_tone1:" : @"\U0001f919\U0001f3fb", \
-    @":call_me_tone2:" : @"\U0001f919\U0001f3fc", \
-    @":call_me_tone3:" : @"\U0001f919\U0001f3fd", \
-    @":call_me_tone4:" : @"\U0001f919\U0001f3fe", \
-    @":call_me_tone5:" : @"\U0001f919\U0001f3ff", \
+    @":call_me_hand:" : @"\U0001f919", \
     @":hand_splayed:" : @"\U0001f590", \
-    @":hand_splayed_tone1:" : @"\U0001f590\U0001f3fb", \
-    @":hand_splayed_tone2:" : @"\U0001f590\U0001f3fc", \
-    @":hand_splayed_tone3:" : @"\U0001f590\U0001f3fd", \
-    @":hand_splayed_tone4:" : @"\U0001f590\U0001f3fe", \
-    @":hand_splayed_tone5:" : @"\U0001f590\U0001f3ff", \
+    @":raised_hand_with_fingers_splayed:" : @"\U0001f590", \
     @":raised_hand:" : @"\U0000270b", \
-    @":raised_hand_tone1:" : @"\U0000270b\U0001f3fb", \
-    @":raised_hand_tone2:" : @"\U0000270b\U0001f3fc", \
-    @":raised_hand_tone3:" : @"\U0000270b\U0001f3fd", \
-    @":raised_hand_tone4:" : @"\U0000270b\U0001f3fe", \
-    @":raised_hand_tone5:" : @"\U0000270b\U0001f3ff", \
     @":ok_hand:" : @"\U0001f44c", \
-    @":ok_hand_tone1:" : @"\U0001f44c\U0001f3fb", \
-    @":ok_hand_tone2:" : @"\U0001f44c\U0001f3fc", \
-    @":ok_hand_tone3:" : @"\U0001f44c\U0001f3fd", \
-    @":ok_hand_tone4:" : @"\U0001f44c\U0001f3fe", \
-    @":ok_hand_tone5:" : @"\U0001f44c\U0001f3ff", \
     @":thumbsup:" : @"\U0001f44d", \
-    @":thumbsup_tone1:" : @"\U0001f44d\U0001f3fb", \
-    @":thumbsup_tone2:" : @"\U0001f44d\U0001f3fc", \
-    @":thumbsup_tone3:" : @"\U0001f44d\U0001f3fd", \
-    @":thumbsup_tone4:" : @"\U0001f44d\U0001f3fe", \
-    @":thumbsup_tone5:" : @"\U0001f44d\U0001f3ff", \
+    @":+1:" : @"\U0001f44d", \
+    @":thumbup:" : @"\U0001f44d", \
     @":thumbsdown:" : @"\U0001f44e", \
-    @":thumbsdown_tone1:" : @"\U0001f44e\U0001f3fb", \
-    @":thumbsdown_tone2:" : @"\U0001f44e\U0001f3fc", \
-    @":thumbsdown_tone3:" : @"\U0001f44e\U0001f3fd", \
-    @":thumbsdown_tone4:" : @"\U0001f44e\U0001f3fe", \
-    @":thumbsdown_tone5:" : @"\U0001f44e\U0001f3ff", \
+    @":-1:" : @"\U0001f44e", \
+    @":thumbdown:" : @"\U0001f44e", \
     @":fist:" : @"\U0000270a", \
-    @":fist_tone1:" : @"\U0000270a\U0001f3fb", \
-    @":fist_tone2:" : @"\U0000270a\U0001f3fc", \
-    @":fist_tone3:" : @"\U0000270a\U0001f3fd", \
-    @":fist_tone4:" : @"\U0000270a\U0001f3fe", \
-    @":fist_tone5:" : @"\U0000270a\U0001f3ff", \
     @":punch:" : @"\U0001f44a", \
-    @":punch_tone1:" : @"\U0001f44a\U0001f3fb", \
-    @":punch_tone2:" : @"\U0001f44a\U0001f3fc", \
-    @":punch_tone3:" : @"\U0001f44a\U0001f3fd", \
-    @":punch_tone4:" : @"\U0001f44a\U0001f3fe", \
-    @":punch_tone5:" : @"\U0001f44a\U0001f3ff", \
     @":left_facing_fist:" : @"\U0001f91b", \
-    @":left_facing_fist_tone1:" : @"\U0001f91b\U0001f3fb", \
-    @":left_facing_fist_tone2:" : @"\U0001f91b\U0001f3fc", \
-    @":left_facing_fist_tone3:" : @"\U0001f91b\U0001f3fd", \
-    @":left_facing_fist_tone4:" : @"\U0001f91b\U0001f3fe", \
-    @":left_facing_fist_tone5:" : @"\U0001f91b\U0001f3ff", \
+    @":left_fist:" : @"\U0001f91b", \
     @":right_facing_fist:" : @"\U0001f91c", \
-    @":right_facing_fist_tone1:" : @"\U0001f91c\U0001f3fb", \
-    @":right_facing_fist_tone2:" : @"\U0001f91c\U0001f3fc", \
-    @":right_facing_fist_tone3:" : @"\U0001f91c\U0001f3fd", \
-    @":right_facing_fist_tone4:" : @"\U0001f91c\U0001f3fe", \
-    @":right_facing_fist_tone5:" : @"\U0001f91c\U0001f3ff", \
+    @":right_fist:" : @"\U0001f91c", \
     @":raised_back_of_hand:" : @"\U0001f91a", \
-    @":raised_back_of_hand_tone1:" : @"\U0001f91a\U0001f3fb", \
-    @":raised_back_of_hand_tone2:" : @"\U0001f91a\U0001f3fc", \
-    @":raised_back_of_hand_tone3:" : @"\U0001f91a\U0001f3fd", \
-    @":raised_back_of_hand_tone4:" : @"\U0001f91a\U0001f3fe", \
-    @":raised_back_of_hand_tone5:" : @"\U0001f91a\U0001f3ff", \
+    @":back_of_hand:" : @"\U0001f91a", \
     @":wave:" : @"\U0001f44b", \
-    @":wave_tone1:" : @"\U0001f44b\U0001f3fb", \
-    @":wave_tone2:" : @"\U0001f44b\U0001f3fc", \
-    @":wave_tone3:" : @"\U0001f44b\U0001f3fd", \
-    @":wave_tone4:" : @"\U0001f44b\U0001f3fe", \
-    @":wave_tone5:" : @"\U0001f44b\U0001f3ff", \
     @":clap:" : @"\U0001f44f", \
-    @":clap_tone1:" : @"\U0001f44f\U0001f3fb", \
-    @":clap_tone2:" : @"\U0001f44f\U0001f3fc", \
-    @":clap_tone3:" : @"\U0001f44f\U0001f3fd", \
-    @":clap_tone4:" : @"\U0001f44f\U0001f3fe", \
-    @":clap_tone5:" : @"\U0001f44f\U0001f3ff", \
     @":writing_hand:" : @"\U0000270d", \
-    @":writing_hand_tone1:" : @"\U0000270d\U0001f3fb", \
-    @":writing_hand_tone2:" : @"\U0000270d\U0001f3fc", \
-    @":writing_hand_tone3:" : @"\U0000270d\U0001f3fd", \
-    @":writing_hand_tone4:" : @"\U0000270d\U0001f3fe", \
-    @":writing_hand_tone5:" : @"\U0000270d\U0001f3ff", \
     @":open_hands:" : @"\U0001f450", \
-    @":open_hands_tone1:" : @"\U0001f450\U0001f3fb", \
-    @":open_hands_tone2:" : @"\U0001f450\U0001f3fc", \
-    @":open_hands_tone3:" : @"\U0001f450\U0001f3fd", \
-    @":open_hands_tone4:" : @"\U0001f450\U0001f3fe", \
-    @":open_hands_tone5:" : @"\U0001f450\U0001f3ff", \
     @":raised_hands:" : @"\U0001f64c", \
-    @":raised_hands_tone1:" : @"\U0001f64c\U0001f3fb", \
-    @":raised_hands_tone2:" : @"\U0001f64c\U0001f3fc", \
-    @":raised_hands_tone3:" : @"\U0001f64c\U0001f3fd", \
-    @":raised_hands_tone4:" : @"\U0001f64c\U0001f3fe", \
-    @":raised_hands_tone5:" : @"\U0001f64c\U0001f3ff", \
     @":pray:" : @"\U0001f64f", \
-    @":pray_tone1:" : @"\U0001f64f\U0001f3fb", \
-    @":pray_tone2:" : @"\U0001f64f\U0001f3fc", \
-    @":pray_tone3:" : @"\U0001f64f\U0001f3fd", \
-    @":pray_tone4:" : @"\U0001f64f\U0001f3fe", \
-    @":pray_tone5:" : @"\U0001f64f\U0001f3ff", \
     @":handshake:" : @"\U0001f91d", \
-    @":handshake_tone1:" : @"\U0001f91d\U0001f3fb", \
-    @":handshake_tone2:" : @"\U0001f91d\U0001f3fc", \
-    @":handshake_tone3:" : @"\U0001f91d\U0001f3fd", \
-    @":handshake_tone4:" : @"\U0001f91d\U0001f3fe", \
-    @":handshake_tone5:" : @"\U0001f91d\U0001f3ff", \
+    @":shaking_hands:" : @"\U0001f91d", \
     @":nail_care:" : @"\U0001f485", \
-    @":nail_care_tone1:" : @"\U0001f485\U0001f3fb", \
-    @":nail_care_tone2:" : @"\U0001f485\U0001f3fc", \
-    @":nail_care_tone3:" : @"\U0001f485\U0001f3fd", \
-    @":nail_care_tone4:" : @"\U0001f485\U0001f3fe", \
-    @":nail_care_tone5:" : @"\U0001f485\U0001f3ff", \
     @":ear:" : @"\U0001f442", \
-    @":ear_tone1:" : @"\U0001f442\U0001f3fb", \
-    @":ear_tone2:" : @"\U0001f442\U0001f3fc", \
-    @":ear_tone3:" : @"\U0001f442\U0001f3fd", \
-    @":ear_tone4:" : @"\U0001f442\U0001f3fe", \
-    @":ear_tone5:" : @"\U0001f442\U0001f3ff", \
     @":nose:" : @"\U0001f443", \
-    @":nose_tone1:" : @"\U0001f443\U0001f3fb", \
-    @":nose_tone2:" : @"\U0001f443\U0001f3fc", \
-    @":nose_tone3:" : @"\U0001f443\U0001f3fd", \
-    @":nose_tone4:" : @"\U0001f443\U0001f3fe", \
-    @":nose_tone5:" : @"\U0001f443\U0001f3ff", \
     @":footprints:" : @"\U0001f463", \
     @":eyes:" : @"\U0001f440", \
     @":eye:" : @"\U0001f441", \
     @":eye_in_speech_bubble:" : @"\U0001f441\U0001f5e8", \
     @":tongue:" : @"\U0001f445", \
-    @":lips:" : @"\U0001f444", \
-    @":kiss:" : @"\U0001f48b", \
-    @":cupid:" : @"\U0001f498", \
-    @":heart:" : @"\U00002764", \
-    @":heartbeat:" : @"\U0001f493", \
-    @":broken_heart:" : @"\U0001f494", \
-    @":two_hearts:" : @"\U0001f495", \
-    @":sparkling_heart:" : @"\U0001f496", \
-    @":heartpulse:" : @"\U0001f497", \
-    @":blue_heart:" : @"\U0001f499", \
-    @":green_heart:" : @"\U0001f49a", \
-    @":yellow_heart:" : @"\U0001f49b", \
-    @":purple_heart:" : @"\U0001f49c", \
-    @":black_heart:" : @"\U0001f5a4", \
-    @":gift_heart:" : @"\U0001f49d", \
-    @":revolving_hearts:" : @"\U0001f49e", \
-    @":heart_decoration:" : @"\U0001f49f", \
-    @":heart_exclamation:" : @"\U00002763", \
-    @":love_letter:" : @"\U0001f48c", \
     @":zzz:" : @"\U0001f4a4", \
     @":anger:" : @"\U0001f4a2", \
-    @":bomb:" : @"\U0001f4a3", \
     @":boom:" : @"\U0001f4a5", \
     @":sweat_drops:" : @"\U0001f4a6", \
     @":dash:" : @"\U0001f4a8", \
     @":dizzy:" : @"\U0001f4ab", \
     @":speech_balloon:" : @"\U0001f4ac", \
     @":speech_left:" : @"\U0001f5e8", \
+    @":left_speech_bubble:" : @"\U0001f5e8", \
     @":anger_right:" : @"\U0001f5ef", \
+    @":right_anger_bubble:" : @"\U0001f5ef", \
     @":thought_balloon:" : @"\U0001f4ad", \
     @":hole:" : @"\U0001f573", \
     @":eyeglasses:" : @"\U0001f453", \
@@ -705,6 +284,7 @@
     @":tophat:" : @"\U0001f3a9", \
     @":mortar_board:" : @"\U0001f393", \
     @":helmet_with_cross:" : @"\U000026d1", \
+    @":helmet_with_white_cross:" : @"\U000026d1", \
     @":prayer_beads:" : @"\U0001f4ff", \
     @":lipstick:" : @"\U0001f484", \
     @":ring:" : @"\U0001f48d", \
@@ -717,9 +297,11 @@
     @":poodle:" : @"\U0001f429", \
     @":wolf:" : @"\U0001f43a", \
     @":fox:" : @"\U0001f98a", \
+    @":fox_face:" : @"\U0001f98a", \
     @":cat:" : @"\U0001f431", \
     @":cat2:" : @"\U0001f408", \
     @":lion_face:" : @"\U0001f981", \
+    @":lion:" : @"\U0001f981", \
     @":tiger:" : @"\U0001f42f", \
     @":tiger2:" : @"\U0001f405", \
     @":leopard:" : @"\U0001f406", \
@@ -727,6 +309,7 @@
     @":racehorse:" : @"\U0001f40e", \
     @":deer:" : @"\U0001f98c", \
     @":unicorn:" : @"\U0001f984", \
+    @":unicorn_face:" : @"\U0001f984", \
     @":cow:" : @"\U0001f42e", \
     @":ox:" : @"\U0001f402", \
     @":water_buffalo:" : @"\U0001f403", \
@@ -742,6 +325,7 @@
     @":camel:" : @"\U0001f42b", \
     @":elephant:" : @"\U0001f418", \
     @":rhino:" : @"\U0001f98f", \
+    @":rhinoceros:" : @"\U0001f98f", \
     @":mouse:" : @"\U0001f42d", \
     @":mouse2:" : @"\U0001f401", \
     @":rat:" : @"\U0001f400", \
@@ -754,6 +338,7 @@
     @":koala:" : @"\U0001f428", \
     @":panda_face:" : @"\U0001f43c", \
     @":feet:" : @"\U0001f43e", \
+    @":paw_prints:" : @"\U0001f43e", \
     @":turkey:" : @"\U0001f983", \
     @":chicken:" : @"\U0001f414", \
     @":rooster:" : @"\U0001f413", \
@@ -763,6 +348,7 @@
     @":bird:" : @"\U0001f426", \
     @":penguin:" : @"\U0001f427", \
     @":dove:" : @"\U0001f54a", \
+    @":dove_of_peace:" : @"\U0001f54a", \
     @":eagle:" : @"\U0001f985", \
     @":duck:" : @"\U0001f986", \
     @":owl:" : @"\U0001f989", \
@@ -800,6 +386,7 @@
     @":rosette:" : @"\U0001f3f5", \
     @":rose:" : @"\U0001f339", \
     @":wilted_rose:" : @"\U0001f940", \
+    @":wilted_flower:" : @"\U0001f940", \
     @":hibiscus:" : @"\U0001f33a", \
     @":sunflower:" : @"\U0001f33b", \
     @":blossom:" : @"\U0001f33c", \
@@ -821,7 +408,6 @@
     @":watermelon:" : @"\U0001f349", \
     @":tangerine:" : @"\U0001f34a", \
     @":lemon:" : @"\U0001f34b", \
-    @":banana:" : @"\U0001f34c", \
     @":pineapple:" : @"\U0001f34d", \
     @":apple:" : @"\U0001f34e", \
     @":green_apple:" : @"\U0001f34f", \
@@ -830,37 +416,28 @@
     @":cherries:" : @"\U0001f352", \
     @":strawberry:" : @"\U0001f353", \
     @":kiwi:" : @"\U0001f95d", \
+    @":kiwifruit:" : @"\U0001f95d", \
     @":tomato:" : @"\U0001f345", \
     @":avocado:" : @"\U0001f951", \
-    @":eggplant:" : @"\U0001f346", \
-    @":potato:" : @"\U0001f954", \
-    @":carrot:" : @"\U0001f955", \
-    @":corn:" : @"\U0001f33d", \
-    @":hot_pepper:" : @"\U0001f336", \
-    @":cucumber:" : @"\U0001f952", \
     @":mushroom:" : @"\U0001f344", \
-    @":peanuts:" : @"\U0001f95c", \
     @":chestnut:" : @"\U0001f330", \
     @":bread:" : @"\U0001f35e", \
-    @":croissant:" : @"\U0001f950", \
-    @":french_bread:" : @"\U0001f956", \
     @":pancakes:" : @"\U0001f95e", \
     @":cheese:" : @"\U0001f9c0", \
+    @":cheese_wedge:" : @"\U0001f9c0", \
     @":meat_on_bone:" : @"\U0001f356", \
     @":poultry_leg:" : @"\U0001f357", \
     @":bacon:" : @"\U0001f953", \
     @":hamburger:" : @"\U0001f354", \
     @":fries:" : @"\U0001f35f", \
     @":pizza:" : @"\U0001f355", \
-    @":hotdog:" : @"\U0001f32d", \
-    @":taco:" : @"\U0001f32e", \
-    @":burrito:" : @"\U0001f32f", \
-    @":stuffed_flatbread:" : @"\U0001f959", \
     @":egg:" : @"\U0001f95a", \
     @":cooking:" : @"\U0001f373", \
     @":shallow_pan_of_food:" : @"\U0001f958", \
+    @":paella:" : @"\U0001f958", \
     @":stew:" : @"\U0001f372", \
     @":salad:" : @"\U0001f957", \
+    @":green_salad:" : @"\U0001f957", \
     @":popcorn:" : @"\U0001f37f", \
     @":bento:" : @"\U0001f371", \
     @":rice_cracker:" : @"\U0001f358", \
@@ -886,21 +463,28 @@
     @":candy:" : @"\U0001f36c", \
     @":lollipop:" : @"\U0001f36d", \
     @":custard:" : @"\U0001f36e", \
+    @":pudding:" : @"\U0001f36e", \
+    @":flan:" : @"\U0001f36e", \
     @":honey_pot:" : @"\U0001f36f", \
     @":baby_bottle:" : @"\U0001f37c", \
     @":milk:" : @"\U0001f95b", \
+    @":glass_of_milk:" : @"\U0001f95b", \
     @":coffee:" : @"\U00002615", \
     @":tea:" : @"\U0001f375", \
     @":sake:" : @"\U0001f376", \
     @":champagne:" : @"\U0001f37e", \
+    @":bottle_with_popping_cork:" : @"\U0001f37e", \
     @":wine_glass:" : @"\U0001f377", \
     @":cocktail:" : @"\U0001f378", \
     @":tropical_drink:" : @"\U0001f379", \
     @":beer:" : @"\U0001f37a", \
     @":beers:" : @"\U0001f37b", \
     @":champagne_glass:" : @"\U0001f942", \
+    @":clinking_glass:" : @"\U0001f942", \
     @":tumbler_glass:" : @"\U0001f943", \
+    @":whisky:" : @"\U0001f943", \
     @":fork_knife_plate:" : @"\U0001f37d", \
+    @":fork_and_knife_with_plate:" : @"\U0001f37d", \
     @":fork_and_knife:" : @"\U0001f374", \
     @":spoon:" : @"\U0001f944", \
     @":knife:" : @"\U0001f52a", \
@@ -910,22 +494,30 @@
     @":earth_asia:" : @"\U0001f30f", \
     @":globe_with_meridians:" : @"\U0001f310", \
     @":map:" : @"\U0001f5fa", \
+    @":world_map:" : @"\U0001f5fa", \
     @":japan:" : @"\U0001f5fe", \
     @":mountain_snow:" : @"\U0001f3d4", \
+    @":snow_capped_mountain:" : @"\U0001f3d4", \
     @":mountain:" : @"\U000026f0", \
     @":volcano:" : @"\U0001f30b", \
     @":mount_fuji:" : @"\U0001f5fb", \
     @":camping:" : @"\U0001f3d5", \
     @":beach:" : @"\U0001f3d6", \
+    @":beach_with_umbrella:" : @"\U0001f3d6", \
     @":desert:" : @"\U0001f3dc", \
     @":island:" : @"\U0001f3dd", \
+    @":desert_island:" : @"\U0001f3dd", \
     @":park:" : @"\U0001f3de", \
+    @":national_park:" : @"\U0001f3de", \
     @":stadium:" : @"\U0001f3df", \
     @":classical_building:" : @"\U0001f3db", \
     @":construction_site:" : @"\U0001f3d7", \
+    @":building_construction:" : @"\U0001f3d7", \
     @":homes:" : @"\U0001f3d8", \
+    @":house_buildings:" : @"\U0001f3d8", \
     @":cityscape:" : @"\U0001f3d9", \
     @":house_abandoned:" : @"\U0001f3da", \
+    @":derelict_house_building:" : @"\U0001f3da", \
     @":house:" : @"\U0001f3e0", \
     @":house_with_garden:" : @"\U0001f3e1", \
     @":office:" : @"\U0001f3e2", \
@@ -957,6 +549,7 @@
     @":sunrise:" : @"\U0001f305", \
     @":city_dusk:" : @"\U0001f306", \
     @":city_sunset:" : @"\U0001f307", \
+    @":city_sunrise:" : @"\U0001f307", \
     @":bridge_at_night:" : @"\U0001f309", \
     @":hotsprings:" : @"\U00002668", \
     @":milky_way:" : @"\U0001f30c", \
@@ -967,6 +560,7 @@
     @":circus_tent:" : @"\U0001f3aa", \
     @":performing_arts:" : @"\U0001f3ad", \
     @":frame_photo:" : @"\U0001f5bc", \
+    @":frame_with_picture:" : @"\U0001f5bc", \
     @":art:" : @"\U0001f3a8", \
     @":slot_machine:" : @"\U0001f3b0", \
     @":steam_locomotive:" : @"\U0001f682", \
@@ -1000,25 +594,31 @@
     @":bike:" : @"\U0001f6b2", \
     @":scooter:" : @"\U0001f6f4", \
     @":motor_scooter:" : @"\U0001f6f5", \
+    @":motorbike:" : @"\U0001f6f5", \
     @":busstop:" : @"\U0001f68f", \
     @":motorway:" : @"\U0001f6e3", \
     @":railway_track:" : @"\U0001f6e4", \
+    @":railroad_track:" : @"\U0001f6e4", \
     @":fuelpump:" : @"\U000026fd", \
     @":rotating_light:" : @"\U0001f6a8", \
     @":traffic_light:" : @"\U0001f6a5", \
     @":vertical_traffic_light:" : @"\U0001f6a6", \
     @":construction:" : @"\U0001f6a7", \
     @":octagonal_sign:" : @"\U0001f6d1", \
+    @":stop_sign:" : @"\U0001f6d1", \
     @":anchor:" : @"\U00002693", \
     @":sailboat:" : @"\U000026f5", \
     @":canoe:" : @"\U0001f6f6", \
+    @":kayak:" : @"\U0001f6f6", \
     @":speedboat:" : @"\U0001f6a4", \
     @":cruise_ship:" : @"\U0001f6f3", \
+    @":passenger_ship:" : @"\U0001f6f3", \
     @":ferry:" : @"\U000026f4", \
     @":motorboat:" : @"\U0001f6e5", \
     @":ship:" : @"\U0001f6a2", \
     @":airplane:" : @"\U00002708", \
     @":airplane_small:" : @"\U0001f6e9", \
+    @":small_airplane:" : @"\U0001f6e9", \
     @":airplane_departure:" : @"\U0001f6eb", \
     @":airplane_arriving:" : @"\U0001f6ec", \
     @":seat:" : @"\U0001f4ba", \
@@ -1029,26 +629,21 @@
     @":rocket:" : @"\U0001f680", \
     @":satellite_orbital:" : @"\U0001f6f0", \
     @":bellhop:" : @"\U0001f6ce", \
+    @":bellhop_bell:" : @"\U0001f6ce", \
     @":door:" : @"\U0001f6aa", \
     @":sleeping_accommodation:" : @"\U0001f6cc", \
     @":bed:" : @"\U0001f6cf", \
     @":couch:" : @"\U0001f6cb", \
-    @":toilet:" : @"\U0001f6bd", \
-    @":shower:" : @"\U0001f6bf", \
-    @":bath:" : @"\U0001f6c0", \
-    @":bath_tone1:" : @"\U0001f6c0\U0001f3fb", \
-    @":bath_tone2:" : @"\U0001f6c0\U0001f3fc", \
-    @":bath_tone3:" : @"\U0001f6c0\U0001f3fd", \
-    @":bath_tone4:" : @"\U0001f6c0\U0001f3fe", \
-    @":bath_tone5:" : @"\U0001f6c0\U0001f3ff", \
-    @":bathtub:" : @"\U0001f6c1", \
+    @":couch_and_lamp:" : @"\U0001f6cb", \
     @":hourglass:" : @"\U0000231b", \
     @":hourglass_flowing_sand:" : @"\U000023f3", \
     @":watch:" : @"\U0000231a", \
     @":alarm_clock:" : @"\U000023f0", \
     @":stopwatch:" : @"\U000023f1", \
     @":timer:" : @"\U000023f2", \
+    @":timer_clock:" : @"\U000023f2", \
     @":clock:" : @"\U0001f570", \
+    @":mantlepiece_clock:" : @"\U0001f570", \
     @":clock12:" : @"\U0001f55b", \
     @":clock1230:" : @"\U0001f567", \
     @":clock1:" : @"\U0001f550", \
@@ -1095,27 +690,36 @@
     @":cloud:" : @"\U00002601", \
     @":partly_sunny:" : @"\U000026c5", \
     @":thunder_cloud_rain:" : @"\U000026c8", \
+    @":thunder_cloud_and_rain:" : @"\U000026c8", \
     @":white_sun_small_cloud:" : @"\U0001f324", \
+    @":white_sun_with_small_cloud:" : @"\U0001f324", \
     @":white_sun_cloud:" : @"\U0001f325", \
+    @":white_sun_behind_cloud:" : @"\U0001f325", \
     @":white_sun_rain_cloud:" : @"\U0001f326", \
+    @":white_sun_behind_cloud_with_rain:" : @"\U0001f326", \
     @":cloud_rain:" : @"\U0001f327", \
+    @":cloud_with_rain:" : @"\U0001f327", \
     @":cloud_snow:" : @"\U0001f328", \
+    @":cloud_with_snow:" : @"\U0001f328", \
     @":cloud_lightning:" : @"\U0001f329", \
+    @":cloud_with_lightning:" : @"\U0001f329", \
     @":cloud_tornado:" : @"\U0001f32a", \
+    @":cloud_with_tornado:" : @"\U0001f32a", \
     @":fog:" : @"\U0001f32b", \
-    @":wind_blowing_face:" : @"\U0001f32c", \
     @":cyclone:" : @"\U0001f300", \
     @":rainbow:" : @"\U0001f308", \
     @":closed_umbrella:" : @"\U0001f302", \
     @":umbrella2:" : @"\U00002602", \
     @":umbrella:" : @"\U00002614", \
     @":beach_umbrella:" : @"\U000026f1", \
+    @":umbrella_on_ground:" : @"\U000026f1", \
     @":zap:" : @"\U000026a1", \
     @":snowflake:" : @"\U00002744", \
     @":snowman2:" : @"\U00002603", \
     @":snowman:" : @"\U000026c4", \
     @":comet:" : @"\U00002604", \
     @":fire:" : @"\U0001f525", \
+    @":flame:" : @"\U0001f525", \
     @":droplet:" : @"\U0001f4a7", \
     @":ocean:" : @"\U0001f30a", \
     @":jack_o_lantern:" : @"\U0001f383", \
@@ -1136,13 +740,18 @@
     @":gift:" : @"\U0001f381", \
     @":reminder_ribbon:" : @"\U0001f397", \
     @":tickets:" : @"\U0001f39f", \
+    @":admission_tickets:" : @"\U0001f39f", \
     @":ticket:" : @"\U0001f3ab", \
     @":military_medal:" : @"\U0001f396", \
     @":trophy:" : @"\U0001f3c6", \
     @":medal:" : @"\U0001f3c5", \
+    @":sports_medal:" : @"\U0001f3c5", \
     @":first_place:" : @"\U0001f947", \
+    @":first_place_medal:" : @"\U0001f947", \
     @":second_place:" : @"\U0001f948", \
+    @":second_place_medal:" : @"\U0001f948", \
     @":third_place:" : @"\U0001f949", \
+    @":third_place_medal:" : @"\U0001f949", \
     @":soccer:" : @"\U000026bd", \
     @":baseball:" : @"\U000026be", \
     @":basketball:" : @"\U0001f3c0", \
@@ -1153,13 +762,18 @@
     @":8ball:" : @"\U0001f3b1", \
     @":bowling:" : @"\U0001f3b3", \
     @":cricket:" : @"\U0001f3cf", \
+    @":cricket_bat_ball:" : @"\U0001f3cf", \
     @":field_hockey:" : @"\U0001f3d1", \
     @":hockey:" : @"\U0001f3d2", \
     @":ping_pong:" : @"\U0001f3d3", \
+    @":table_tennis:" : @"\U0001f3d3", \
     @":badminton:" : @"\U0001f3f8", \
     @":boxing_glove:" : @"\U0001f94a", \
+    @":boxing_gloves:" : @"\U0001f94a", \
     @":martial_arts_uniform:" : @"\U0001f94b", \
+    @":karate_uniform:" : @"\U0001f94b", \
     @":goal:" : @"\U0001f945", \
+    @":goal_net:" : @"\U0001f945", \
     @":dart:" : @"\U0001f3af", \
     @":golf:" : @"\U000026f3", \
     @":ice_skate:" : @"\U000026f8", \
@@ -1189,6 +803,7 @@
     @":musical_note:" : @"\U0001f3b5", \
     @":notes:" : @"\U0001f3b6", \
     @":microphone2:" : @"\U0001f399", \
+    @":studio_microphone:" : @"\U0001f399", \
     @":level_slider:" : @"\U0001f39a", \
     @":control_knobs:" : @"\U0001f39b", \
     @":microphone:" : @"\U0001f3a4", \
@@ -1200,6 +815,7 @@
     @":trumpet:" : @"\U0001f3ba", \
     @":violin:" : @"\U0001f3bb", \
     @":drum:" : @"\U0001f941", \
+    @":drum_with_drumsticks:" : @"\U0001f941", \
     @":iphone:" : @"\U0001f4f1", \
     @":calling:" : @"\U0001f4f2", \
     @":telephone:" : @"\U0000260e", \
@@ -1210,9 +826,11 @@
     @":electric_plug:" : @"\U0001f50c", \
     @":computer:" : @"\U0001f4bb", \
     @":desktop:" : @"\U0001f5a5", \
+    @":desktop_computer:" : @"\U0001f5a5", \
     @":printer:" : @"\U0001f5a8", \
     @":keyboard:" : @"\U00002328", \
     @":mouse_three_button:" : @"\U0001f5b1", \
+    @":three_button_mouse:" : @"\U0001f5b1", \
     @":trackball:" : @"\U0001f5b2", \
     @":minidisc:" : @"\U0001f4bd", \
     @":floppy_disk:" : @"\U0001f4be", \
@@ -1221,6 +839,7 @@
     @":movie_camera:" : @"\U0001f3a5", \
     @":film_frames:" : @"\U0001f39e", \
     @":projector:" : @"\U0001f4fd", \
+    @":film_projector:" : @"\U0001f4fd", \
     @":clapper:" : @"\U0001f3ac", \
     @":tv:" : @"\U0001f4fa", \
     @":camera:" : @"\U0001f4f7", \
@@ -1234,7 +853,6 @@
     @":satellite:" : @"\U0001f4e1", \
     @":candle:" : @"\U0001f56f", \
     @":bulb:" : @"\U0001f4a1", \
-    @":flashlight:" : @"\U0001f526", \
     @":izakaya_lantern:" : @"\U0001f3ee", \
     @":notebook_with_decorative_cover:" : @"\U0001f4d4", \
     @":closed_book:" : @"\U0001f4d5", \
@@ -1249,7 +867,6 @@
     @":scroll:" : @"\U0001f4dc", \
     @":page_facing_up:" : @"\U0001f4c4", \
     @":newspaper:" : @"\U0001f4f0", \
-    @":newspaper2:" : @"\U0001f5de", \
     @":bookmark_tabs:" : @"\U0001f4d1", \
     @":bookmark:" : @"\U0001f516", \
     @":label:" : @"\U0001f3f7", \
@@ -1277,21 +894,29 @@
     @":mailbox_with_no_mail:" : @"\U0001f4ed", \
     @":postbox:" : @"\U0001f4ee", \
     @":ballot_box:" : @"\U0001f5f3", \
+    @":ballot_box_with_ballot:" : @"\U0001f5f3", \
     @":pencil2:" : @"\U0000270f", \
     @":black_nib:" : @"\U00002712", \
     @":pen_fountain:" : @"\U0001f58b", \
+    @":lower_left_fountain_pen:" : @"\U0001f58b", \
     @":pen_ballpoint:" : @"\U0001f58a", \
+    @":lower_left_ballpoint_pen:" : @"\U0001f58a", \
     @":paintbrush:" : @"\U0001f58c", \
+    @":lower_left_paintbrush:" : @"\U0001f58c", \
     @":crayon:" : @"\U0001f58d", \
+    @":lower_left_crayon:" : @"\U0001f58d", \
     @":pencil:" : @"\U0001f4dd", \
     @":briefcase:" : @"\U0001f4bc", \
     @":file_folder:" : @"\U0001f4c1", \
     @":open_file_folder:" : @"\U0001f4c2", \
     @":dividers:" : @"\U0001f5c2", \
+    @":card_index_dividers:" : @"\U0001f5c2", \
     @":date:" : @"\U0001f4c5", \
     @":calendar:" : @"\U0001f4c6", \
     @":notepad_spiral:" : @"\U0001f5d2", \
+    @":spiral_note_pad:" : @"\U0001f5d2", \
     @":calendar_spiral:" : @"\U0001f5d3", \
+    @":spiral_calendar_pad:" : @"\U0001f5d3", \
     @":card_index:" : @"\U0001f4c7", \
     @":chart_with_upwards_trend:" : @"\U0001f4c8", \
     @":chart_with_downwards_trend:" : @"\U0001f4c9", \
@@ -1301,10 +926,12 @@
     @":round_pushpin:" : @"\U0001f4cd", \
     @":paperclip:" : @"\U0001f4ce", \
     @":paperclips:" : @"\U0001f587", \
+    @":linked_paperclips:" : @"\U0001f587", \
     @":straight_ruler:" : @"\U0001f4cf", \
     @":triangular_ruler:" : @"\U0001f4d0", \
     @":scissors:" : @"\U00002702", \
     @":card_box:" : @"\U0001f5c3", \
+    @":card_file_box:" : @"\U0001f5c3", \
     @":file_cabinet:" : @"\U0001f5c4", \
     @":wastebasket:" : @"\U0001f5d1", \
     @":lock:" : @"\U0001f512", \
@@ -1313,41 +940,29 @@
     @":closed_lock_with_key:" : @"\U0001f510", \
     @":key:" : @"\U0001f511", \
     @":key2:" : @"\U0001f5dd", \
+    @":old_key:" : @"\U0001f5dd", \
     @":hammer:" : @"\U0001f528", \
     @":pick:" : @"\U000026cf", \
     @":hammer_pick:" : @"\U00002692", \
+    @":hammer_and_pick:" : @"\U00002692", \
     @":tools:" : @"\U0001f6e0", \
-    @":dagger:" : @"\U0001f5e1", \
-    @":crossed_swords:" : @"\U00002694", \
-    @":gun:" : @"\U0001f52b", \
-    @":bow_and_arrow:" : @"\U0001f3f9", \
-    @":shield:" : @"\U0001f6e1", \
-    @":wrench:" : @"\U0001f527", \
-    @":nut_and_bolt:" : @"\U0001f529", \
+    @":hammer_and_wrench:" : @"\U0001f6e0", \
     @":gear:" : @"\U00002699", \
     @":compression:" : @"\U0001f5dc", \
     @":alembic:" : @"\U00002697", \
     @":scales:" : @"\U00002696", \
     @":link:" : @"\U0001f517", \
     @":chains:" : @"\U000026d3", \
-    @":syringe:" : @"\U0001f489", \
-    @":pill:" : @"\U0001f48a", \
-    @":smoking:" : @"\U0001f6ac", \
-    @":coffin:" : @"\U000026b0", \
-    @":urn:" : @"\U000026b1", \
-    @":moyai:" : @"\U0001f5ff", \
     @":oil:" : @"\U0001f6e2", \
+    @":oil_drum:" : @"\U0001f6e2", \
     @":crystal_ball:" : @"\U0001f52e", \
     @":shopping_cart:" : @"\U0001f6d2", \
+    @":shopping_trolley:" : @"\U0001f6d2", \
     @":atm:" : @"\U0001f3e7", \
     @":put_litter_in_its_place:" : @"\U0001f6ae", \
     @":potable_water:" : @"\U0001f6b0", \
     @":wheelchair:" : @"\U0000267f", \
     @":mens:" : @"\U0001f6b9", \
-    @":womens:" : @"\U0001f6ba", \
-    @":restroom:" : @"\U0001f6bb", \
-    @":baby_symbol:" : @"\U0001f6bc", \
-    @":wc:" : @"\U0001f6be", \
     @":passport_control:" : @"\U0001f6c2", \
     @":customs:" : @"\U0001f6c3", \
     @":baggage_claim:" : @"\U0001f6c4", \
@@ -1364,7 +979,9 @@
     @":no_mobile_phones:" : @"\U0001f4f5", \
     @":underage:" : @"\U0001f51e", \
     @":radioactive:" : @"\U00002622", \
+    @":radioactive_sign:" : @"\U00002622", \
     @":biohazard:" : @"\U00002623", \
+    @":biohazard_sign:" : @"\U00002623", \
     @":arrow_up:" : @"\U00002b06", \
     @":arrow_upper_right:" : @"\U00002197", \
     @":arrow_right:" : @"\U000027a1", \
@@ -1386,18 +1003,7 @@
     @":on:" : @"\U0001f51b", \
     @":soon:" : @"\U0001f51c", \
     @":top:" : @"\U0001f51d", \
-    @":place_of_worship:" : @"\U0001f6d0", \
-    @":atom:" : @"\U0000269b", \
-    @":om_symbol:" : @"\U0001f549", \
-    @":star_of_david:" : @"\U00002721", \
-    @":wheel_of_dharma:" : @"\U00002638", \
     @":yin_yang:" : @"\U0000262f", \
-    @":cross:" : @"\U0000271d", \
-    @":orthodox_cross:" : @"\U00002626", \
-    @":star_and_crescent:" : @"\U0000262a", \
-    @":peace:" : @"\U0000262e", \
-    @":menorah:" : @"\U0001f54e", \
-    @":six_pointed_star:" : @"\U0001f52f", \
     @":aries:" : @"\U00002648", \
     @":taurus:" : @"\U00002649", \
     @":gemini:" : @"\U0000264a", \
@@ -1417,18 +1023,22 @@
     @":arrow_forward:" : @"\U000025b6", \
     @":fast_forward:" : @"\U000023e9", \
     @":track_next:" : @"\U000023ed", \
+    @":next_track:" : @"\U000023ed", \
     @":play_pause:" : @"\U000023ef", \
     @":arrow_backward:" : @"\U000025c0", \
     @":rewind:" : @"\U000023ea", \
     @":track_previous:" : @"\U000023ee", \
+    @":previous_track:" : @"\U000023ee", \
     @":arrow_up_small:" : @"\U0001f53c", \
     @":arrow_double_up:" : @"\U000023eb", \
     @":arrow_down_small:" : @"\U0001f53d", \
     @":arrow_double_down:" : @"\U000023ec", \
     @":pause_button:" : @"\U000023f8", \
+    @":double_vertical_bar:" : @"\U000023f8", \
     @":stop_button:" : @"\U000023f9", \
     @":record_button:" : @"\U000023fa", \
     @":eject:" : @"\U000023cf", \
+    @":eject_symbol:" : @"\U000023cf", \
     @":cinema:" : @"\U0001f3a6", \
     @":low_brightness:" : @"\U0001f505", \
     @":high_brightness:" : @"\U0001f506", \
@@ -1542,289 +1152,524 @@
     @":triangular_flag_on_post:" : @"\U0001f6a9", \
     @":crossed_flags:" : @"\U0001f38c", \
     @":flag_black:" : @"\U0001f3f4", \
+    @":waving_black_flag:" : @"\U0001f3f4", \
     @":flag_white:" : @"\U0001f3f3", \
+    @":waving_white_flag:" : @"\U0001f3f3", \
     @":rainbow_flag:" : @"\U0001f3f3\U0001f308", \
+    @":gay_pride_flag:" : @"\U0001f3f3\U0001f308", \
     @":flag_ac:" : @"\U0001f1e6\U0001f1e8", \
+    @":ac:" : @"\U0001f1e6\U0001f1e8", \
     @":flag_ad:" : @"\U0001f1e6\U0001f1e9", \
+    @":ad:" : @"\U0001f1e6\U0001f1e9", \
     @":flag_ae:" : @"\U0001f1e6\U0001f1ea", \
+    @":ae:" : @"\U0001f1e6\U0001f1ea", \
     @":flag_af:" : @"\U0001f1e6\U0001f1eb", \
+    @":af:" : @"\U0001f1e6\U0001f1eb", \
     @":flag_ag:" : @"\U0001f1e6\U0001f1ec", \
+    @":ag:" : @"\U0001f1e6\U0001f1ec", \
     @":flag_ai:" : @"\U0001f1e6\U0001f1ee", \
+    @":ai:" : @"\U0001f1e6\U0001f1ee", \
     @":flag_al:" : @"\U0001f1e6\U0001f1f1", \
+    @":al:" : @"\U0001f1e6\U0001f1f1", \
     @":flag_am:" : @"\U0001f1e6\U0001f1f2", \
+    @":am:" : @"\U0001f1e6\U0001f1f2", \
     @":flag_ao:" : @"\U0001f1e6\U0001f1f4", \
+    @":ao:" : @"\U0001f1e6\U0001f1f4", \
     @":flag_aq:" : @"\U0001f1e6\U0001f1f6", \
+    @":aq:" : @"\U0001f1e6\U0001f1f6", \
     @":flag_ar:" : @"\U0001f1e6\U0001f1f7", \
+    @":ar:" : @"\U0001f1e6\U0001f1f7", \
     @":flag_as:" : @"\U0001f1e6\U0001f1f8", \
+    @":as:" : @"\U0001f1e6\U0001f1f8", \
     @":flag_at:" : @"\U0001f1e6\U0001f1f9", \
+    @":at:" : @"\U0001f1e6\U0001f1f9", \
     @":flag_au:" : @"\U0001f1e6\U0001f1fa", \
+    @":au:" : @"\U0001f1e6\U0001f1fa", \
     @":flag_aw:" : @"\U0001f1e6\U0001f1fc", \
+    @":aw:" : @"\U0001f1e6\U0001f1fc", \
     @":flag_ax:" : @"\U0001f1e6\U0001f1fd", \
+    @":ax:" : @"\U0001f1e6\U0001f1fd", \
     @":flag_az:" : @"\U0001f1e6\U0001f1ff", \
+    @":az:" : @"\U0001f1e6\U0001f1ff", \
     @":flag_ba:" : @"\U0001f1e7\U0001f1e6", \
+    @":ba:" : @"\U0001f1e7\U0001f1e6", \
     @":flag_bb:" : @"\U0001f1e7\U0001f1e7", \
+    @":bb:" : @"\U0001f1e7\U0001f1e7", \
     @":flag_bd:" : @"\U0001f1e7\U0001f1e9", \
+    @":bd:" : @"\U0001f1e7\U0001f1e9", \
     @":flag_be:" : @"\U0001f1e7\U0001f1ea", \
+    @":be:" : @"\U0001f1e7\U0001f1ea", \
     @":flag_bf:" : @"\U0001f1e7\U0001f1eb", \
+    @":bf:" : @"\U0001f1e7\U0001f1eb", \
     @":flag_bg:" : @"\U0001f1e7\U0001f1ec", \
+    @":bg:" : @"\U0001f1e7\U0001f1ec", \
     @":flag_bh:" : @"\U0001f1e7\U0001f1ed", \
+    @":bh:" : @"\U0001f1e7\U0001f1ed", \
     @":flag_bi:" : @"\U0001f1e7\U0001f1ee", \
+    @":bi:" : @"\U0001f1e7\U0001f1ee", \
     @":flag_bj:" : @"\U0001f1e7\U0001f1ef", \
+    @":bj:" : @"\U0001f1e7\U0001f1ef", \
     @":flag_bl:" : @"\U0001f1e7\U0001f1f1", \
+    @":bl:" : @"\U0001f1e7\U0001f1f1", \
     @":flag_bm:" : @"\U0001f1e7\U0001f1f2", \
+    @":bm:" : @"\U0001f1e7\U0001f1f2", \
     @":flag_bn:" : @"\U0001f1e7\U0001f1f3", \
+    @":bn:" : @"\U0001f1e7\U0001f1f3", \
     @":flag_bo:" : @"\U0001f1e7\U0001f1f4", \
+    @":bo:" : @"\U0001f1e7\U0001f1f4", \
     @":flag_bq:" : @"\U0001f1e7\U0001f1f6", \
+    @":bq:" : @"\U0001f1e7\U0001f1f6", \
     @":flag_br:" : @"\U0001f1e7\U0001f1f7", \
+    @":br:" : @"\U0001f1e7\U0001f1f7", \
     @":flag_bs:" : @"\U0001f1e7\U0001f1f8", \
+    @":bs:" : @"\U0001f1e7\U0001f1f8", \
     @":flag_bt:" : @"\U0001f1e7\U0001f1f9", \
+    @":bt:" : @"\U0001f1e7\U0001f1f9", \
     @":flag_bv:" : @"\U0001f1e7\U0001f1fb", \
+    @":bv:" : @"\U0001f1e7\U0001f1fb", \
     @":flag_bw:" : @"\U0001f1e7\U0001f1fc", \
+    @":bw:" : @"\U0001f1e7\U0001f1fc", \
     @":flag_by:" : @"\U0001f1e7\U0001f1fe", \
+    @":by:" : @"\U0001f1e7\U0001f1fe", \
     @":flag_bz:" : @"\U0001f1e7\U0001f1ff", \
+    @":bz:" : @"\U0001f1e7\U0001f1ff", \
     @":flag_ca:" : @"\U0001f1e8\U0001f1e6", \
+    @":ca:" : @"\U0001f1e8\U0001f1e6", \
     @":flag_cc:" : @"\U0001f1e8\U0001f1e8", \
+    @":cc:" : @"\U0001f1e8\U0001f1e8", \
     @":flag_cd:" : @"\U0001f1e8\U0001f1e9", \
+    @":congo:" : @"\U0001f1e8\U0001f1e9", \
     @":flag_cf:" : @"\U0001f1e8\U0001f1eb", \
+    @":cf:" : @"\U0001f1e8\U0001f1eb", \
     @":flag_cg:" : @"\U0001f1e8\U0001f1ec", \
+    @":cg:" : @"\U0001f1e8\U0001f1ec", \
     @":flag_ch:" : @"\U0001f1e8\U0001f1ed", \
+    @":ch:" : @"\U0001f1e8\U0001f1ed", \
     @":flag_ci:" : @"\U0001f1e8\U0001f1ee", \
+    @":ci:" : @"\U0001f1e8\U0001f1ee", \
     @":flag_ck:" : @"\U0001f1e8\U0001f1f0", \
+    @":ck:" : @"\U0001f1e8\U0001f1f0", \
     @":flag_cl:" : @"\U0001f1e8\U0001f1f1", \
+    @":chile:" : @"\U0001f1e8\U0001f1f1", \
     @":flag_cm:" : @"\U0001f1e8\U0001f1f2", \
+    @":cm:" : @"\U0001f1e8\U0001f1f2", \
     @":flag_cn:" : @"\U0001f1e8\U0001f1f3", \
+    @":cn:" : @"\U0001f1e8\U0001f1f3", \
     @":flag_co:" : @"\U0001f1e8\U0001f1f4", \
+    @":co:" : @"\U0001f1e8\U0001f1f4", \
     @":flag_cp:" : @"\U0001f1e8\U0001f1f5", \
+    @":cp:" : @"\U0001f1e8\U0001f1f5", \
     @":flag_cr:" : @"\U0001f1e8\U0001f1f7", \
+    @":cr:" : @"\U0001f1e8\U0001f1f7", \
     @":flag_cu:" : @"\U0001f1e8\U0001f1fa", \
+    @":cu:" : @"\U0001f1e8\U0001f1fa", \
     @":flag_cv:" : @"\U0001f1e8\U0001f1fb", \
+    @":cv:" : @"\U0001f1e8\U0001f1fb", \
     @":flag_cw:" : @"\U0001f1e8\U0001f1fc", \
+    @":cw:" : @"\U0001f1e8\U0001f1fc", \
     @":flag_cx:" : @"\U0001f1e8\U0001f1fd", \
+    @":cx:" : @"\U0001f1e8\U0001f1fd", \
     @":flag_cy:" : @"\U0001f1e8\U0001f1fe", \
+    @":cy:" : @"\U0001f1e8\U0001f1fe", \
     @":flag_cz:" : @"\U0001f1e8\U0001f1ff", \
+    @":cz:" : @"\U0001f1e8\U0001f1ff", \
     @":flag_de:" : @"\U0001f1e9\U0001f1ea", \
+    @":de:" : @"\U0001f1e9\U0001f1ea", \
     @":flag_dg:" : @"\U0001f1e9\U0001f1ec", \
+    @":dg:" : @"\U0001f1e9\U0001f1ec", \
     @":flag_dj:" : @"\U0001f1e9\U0001f1ef", \
+    @":dj:" : @"\U0001f1e9\U0001f1ef", \
     @":flag_dk:" : @"\U0001f1e9\U0001f1f0", \
+    @":dk:" : @"\U0001f1e9\U0001f1f0", \
     @":flag_dm:" : @"\U0001f1e9\U0001f1f2", \
+    @":dm:" : @"\U0001f1e9\U0001f1f2", \
     @":flag_do:" : @"\U0001f1e9\U0001f1f4", \
+    @":do:" : @"\U0001f1e9\U0001f1f4", \
     @":flag_dz:" : @"\U0001f1e9\U0001f1ff", \
+    @":dz:" : @"\U0001f1e9\U0001f1ff", \
     @":flag_ea:" : @"\U0001f1ea\U0001f1e6", \
+    @":ea:" : @"\U0001f1ea\U0001f1e6", \
     @":flag_ec:" : @"\U0001f1ea\U0001f1e8", \
+    @":ec:" : @"\U0001f1ea\U0001f1e8", \
     @":flag_ee:" : @"\U0001f1ea\U0001f1ea", \
+    @":ee:" : @"\U0001f1ea\U0001f1ea", \
     @":flag_eg:" : @"\U0001f1ea\U0001f1ec", \
+    @":eg:" : @"\U0001f1ea\U0001f1ec", \
     @":flag_eh:" : @"\U0001f1ea\U0001f1ed", \
+    @":eh:" : @"\U0001f1ea\U0001f1ed", \
     @":flag_er:" : @"\U0001f1ea\U0001f1f7", \
+    @":er:" : @"\U0001f1ea\U0001f1f7", \
     @":flag_es:" : @"\U0001f1ea\U0001f1f8", \
+    @":es:" : @"\U0001f1ea\U0001f1f8", \
     @":flag_et:" : @"\U0001f1ea\U0001f1f9", \
+    @":et:" : @"\U0001f1ea\U0001f1f9", \
     @":flag_eu:" : @"\U0001f1ea\U0001f1fa", \
+    @":eu:" : @"\U0001f1ea\U0001f1fa", \
     @":flag_fi:" : @"\U0001f1eb\U0001f1ee", \
+    @":fi:" : @"\U0001f1eb\U0001f1ee", \
     @":flag_fj:" : @"\U0001f1eb\U0001f1ef", \
+    @":fj:" : @"\U0001f1eb\U0001f1ef", \
     @":flag_fk:" : @"\U0001f1eb\U0001f1f0", \
+    @":fk:" : @"\U0001f1eb\U0001f1f0", \
     @":flag_fm:" : @"\U0001f1eb\U0001f1f2", \
+    @":fm:" : @"\U0001f1eb\U0001f1f2", \
     @":flag_fo:" : @"\U0001f1eb\U0001f1f4", \
+    @":fo:" : @"\U0001f1eb\U0001f1f4", \
     @":flag_fr:" : @"\U0001f1eb\U0001f1f7", \
+    @":fr:" : @"\U0001f1eb\U0001f1f7", \
     @":flag_ga:" : @"\U0001f1ec\U0001f1e6", \
+    @":ga:" : @"\U0001f1ec\U0001f1e6", \
     @":flag_gb:" : @"\U0001f1ec\U0001f1e7", \
+    @":gb:" : @"\U0001f1ec\U0001f1e7", \
     @":flag_gd:" : @"\U0001f1ec\U0001f1e9", \
+    @":gd:" : @"\U0001f1ec\U0001f1e9", \
     @":flag_ge:" : @"\U0001f1ec\U0001f1ea", \
+    @":ge:" : @"\U0001f1ec\U0001f1ea", \
     @":flag_gf:" : @"\U0001f1ec\U0001f1eb", \
+    @":gf:" : @"\U0001f1ec\U0001f1eb", \
     @":flag_gg:" : @"\U0001f1ec\U0001f1ec", \
+    @":gg:" : @"\U0001f1ec\U0001f1ec", \
     @":flag_gh:" : @"\U0001f1ec\U0001f1ed", \
+    @":gh:" : @"\U0001f1ec\U0001f1ed", \
     @":flag_gi:" : @"\U0001f1ec\U0001f1ee", \
+    @":gi:" : @"\U0001f1ec\U0001f1ee", \
     @":flag_gl:" : @"\U0001f1ec\U0001f1f1", \
+    @":gl:" : @"\U0001f1ec\U0001f1f1", \
     @":flag_gm:" : @"\U0001f1ec\U0001f1f2", \
+    @":gm:" : @"\U0001f1ec\U0001f1f2", \
     @":flag_gn:" : @"\U0001f1ec\U0001f1f3", \
+    @":gn:" : @"\U0001f1ec\U0001f1f3", \
     @":flag_gp:" : @"\U0001f1ec\U0001f1f5", \
+    @":gp:" : @"\U0001f1ec\U0001f1f5", \
     @":flag_gq:" : @"\U0001f1ec\U0001f1f6", \
+    @":gq:" : @"\U0001f1ec\U0001f1f6", \
     @":flag_gr:" : @"\U0001f1ec\U0001f1f7", \
+    @":gr:" : @"\U0001f1ec\U0001f1f7", \
     @":flag_gs:" : @"\U0001f1ec\U0001f1f8", \
+    @":gs:" : @"\U0001f1ec\U0001f1f8", \
     @":flag_gt:" : @"\U0001f1ec\U0001f1f9", \
+    @":gt:" : @"\U0001f1ec\U0001f1f9", \
     @":flag_gu:" : @"\U0001f1ec\U0001f1fa", \
+    @":gu:" : @"\U0001f1ec\U0001f1fa", \
     @":flag_gw:" : @"\U0001f1ec\U0001f1fc", \
+    @":gw:" : @"\U0001f1ec\U0001f1fc", \
     @":flag_gy:" : @"\U0001f1ec\U0001f1fe", \
+    @":gy:" : @"\U0001f1ec\U0001f1fe", \
     @":flag_hk:" : @"\U0001f1ed\U0001f1f0", \
+    @":hk:" : @"\U0001f1ed\U0001f1f0", \
     @":flag_hm:" : @"\U0001f1ed\U0001f1f2", \
+    @":hm:" : @"\U0001f1ed\U0001f1f2", \
     @":flag_hn:" : @"\U0001f1ed\U0001f1f3", \
+    @":hn:" : @"\U0001f1ed\U0001f1f3", \
     @":flag_hr:" : @"\U0001f1ed\U0001f1f7", \
+    @":hr:" : @"\U0001f1ed\U0001f1f7", \
     @":flag_ht:" : @"\U0001f1ed\U0001f1f9", \
+    @":ht:" : @"\U0001f1ed\U0001f1f9", \
     @":flag_hu:" : @"\U0001f1ed\U0001f1fa", \
+    @":hu:" : @"\U0001f1ed\U0001f1fa", \
     @":flag_ic:" : @"\U0001f1ee\U0001f1e8", \
+    @":ic:" : @"\U0001f1ee\U0001f1e8", \
     @":flag_id:" : @"\U0001f1ee\U0001f1e9", \
+    @":indonesia:" : @"\U0001f1ee\U0001f1e9", \
     @":flag_ie:" : @"\U0001f1ee\U0001f1ea", \
+    @":ie:" : @"\U0001f1ee\U0001f1ea", \
     @":flag_il:" : @"\U0001f1ee\U0001f1f1", \
+    @":il:" : @"\U0001f1ee\U0001f1f1", \
     @":flag_im:" : @"\U0001f1ee\U0001f1f2", \
+    @":im:" : @"\U0001f1ee\U0001f1f2", \
     @":flag_in:" : @"\U0001f1ee\U0001f1f3", \
+    @":in:" : @"\U0001f1ee\U0001f1f3", \
     @":flag_io:" : @"\U0001f1ee\U0001f1f4", \
+    @":io:" : @"\U0001f1ee\U0001f1f4", \
     @":flag_iq:" : @"\U0001f1ee\U0001f1f6", \
+    @":iq:" : @"\U0001f1ee\U0001f1f6", \
     @":flag_ir:" : @"\U0001f1ee\U0001f1f7", \
+    @":ir:" : @"\U0001f1ee\U0001f1f7", \
     @":flag_is:" : @"\U0001f1ee\U0001f1f8", \
+    @":is:" : @"\U0001f1ee\U0001f1f8", \
     @":flag_it:" : @"\U0001f1ee\U0001f1f9", \
+    @":it:" : @"\U0001f1ee\U0001f1f9", \
     @":flag_je:" : @"\U0001f1ef\U0001f1ea", \
+    @":je:" : @"\U0001f1ef\U0001f1ea", \
     @":flag_jm:" : @"\U0001f1ef\U0001f1f2", \
+    @":jm:" : @"\U0001f1ef\U0001f1f2", \
     @":flag_jo:" : @"\U0001f1ef\U0001f1f4", \
+    @":jo:" : @"\U0001f1ef\U0001f1f4", \
     @":flag_jp:" : @"\U0001f1ef\U0001f1f5", \
+    @":jp:" : @"\U0001f1ef\U0001f1f5", \
     @":flag_ke:" : @"\U0001f1f0\U0001f1ea", \
+    @":ke:" : @"\U0001f1f0\U0001f1ea", \
     @":flag_kg:" : @"\U0001f1f0\U0001f1ec", \
+    @":kg:" : @"\U0001f1f0\U0001f1ec", \
     @":flag_kh:" : @"\U0001f1f0\U0001f1ed", \
+    @":kh:" : @"\U0001f1f0\U0001f1ed", \
     @":flag_ki:" : @"\U0001f1f0\U0001f1ee", \
+    @":ki:" : @"\U0001f1f0\U0001f1ee", \
     @":flag_km:" : @"\U0001f1f0\U0001f1f2", \
+    @":km:" : @"\U0001f1f0\U0001f1f2", \
     @":flag_kn:" : @"\U0001f1f0\U0001f1f3", \
+    @":kn:" : @"\U0001f1f0\U0001f1f3", \
     @":flag_kp:" : @"\U0001f1f0\U0001f1f5", \
+    @":kp:" : @"\U0001f1f0\U0001f1f5", \
     @":flag_kr:" : @"\U0001f1f0\U0001f1f7", \
+    @":kr:" : @"\U0001f1f0\U0001f1f7", \
     @":flag_kw:" : @"\U0001f1f0\U0001f1fc", \
+    @":kw:" : @"\U0001f1f0\U0001f1fc", \
     @":flag_ky:" : @"\U0001f1f0\U0001f1fe", \
+    @":ky:" : @"\U0001f1f0\U0001f1fe", \
     @":flag_kz:" : @"\U0001f1f0\U0001f1ff", \
+    @":kz:" : @"\U0001f1f0\U0001f1ff", \
     @":flag_la:" : @"\U0001f1f1\U0001f1e6", \
+    @":la:" : @"\U0001f1f1\U0001f1e6", \
     @":flag_lb:" : @"\U0001f1f1\U0001f1e7", \
+    @":lb:" : @"\U0001f1f1\U0001f1e7", \
     @":flag_lc:" : @"\U0001f1f1\U0001f1e8", \
+    @":lc:" : @"\U0001f1f1\U0001f1e8", \
     @":flag_li:" : @"\U0001f1f1\U0001f1ee", \
+    @":li:" : @"\U0001f1f1\U0001f1ee", \
     @":flag_lk:" : @"\U0001f1f1\U0001f1f0", \
+    @":lk:" : @"\U0001f1f1\U0001f1f0", \
     @":flag_lr:" : @"\U0001f1f1\U0001f1f7", \
+    @":lr:" : @"\U0001f1f1\U0001f1f7", \
     @":flag_ls:" : @"\U0001f1f1\U0001f1f8", \
+    @":ls:" : @"\U0001f1f1\U0001f1f8", \
     @":flag_lt:" : @"\U0001f1f1\U0001f1f9", \
+    @":lt:" : @"\U0001f1f1\U0001f1f9", \
     @":flag_lu:" : @"\U0001f1f1\U0001f1fa", \
+    @":lu:" : @"\U0001f1f1\U0001f1fa", \
     @":flag_lv:" : @"\U0001f1f1\U0001f1fb", \
+    @":lv:" : @"\U0001f1f1\U0001f1fb", \
     @":flag_ly:" : @"\U0001f1f1\U0001f1fe", \
+    @":ly:" : @"\U0001f1f1\U0001f1fe", \
     @":flag_ma:" : @"\U0001f1f2\U0001f1e6", \
+    @":ma:" : @"\U0001f1f2\U0001f1e6", \
     @":flag_mc:" : @"\U0001f1f2\U0001f1e8", \
+    @":mc:" : @"\U0001f1f2\U0001f1e8", \
     @":flag_md:" : @"\U0001f1f2\U0001f1e9", \
+    @":md:" : @"\U0001f1f2\U0001f1e9", \
     @":flag_me:" : @"\U0001f1f2\U0001f1ea", \
+    @":me:" : @"\U0001f1f2\U0001f1ea", \
     @":flag_mf:" : @"\U0001f1f2\U0001f1eb", \
+    @":mf:" : @"\U0001f1f2\U0001f1eb", \
     @":flag_mg:" : @"\U0001f1f2\U0001f1ec", \
+    @":mg:" : @"\U0001f1f2\U0001f1ec", \
     @":flag_mh:" : @"\U0001f1f2\U0001f1ed", \
+    @":mh:" : @"\U0001f1f2\U0001f1ed", \
     @":flag_mk:" : @"\U0001f1f2\U0001f1f0", \
+    @":mk:" : @"\U0001f1f2\U0001f1f0", \
     @":flag_ml:" : @"\U0001f1f2\U0001f1f1", \
+    @":ml:" : @"\U0001f1f2\U0001f1f1", \
     @":flag_mm:" : @"\U0001f1f2\U0001f1f2", \
+    @":mm:" : @"\U0001f1f2\U0001f1f2", \
     @":flag_mn:" : @"\U0001f1f2\U0001f1f3", \
+    @":mn:" : @"\U0001f1f2\U0001f1f3", \
     @":flag_mo:" : @"\U0001f1f2\U0001f1f4", \
+    @":mo:" : @"\U0001f1f2\U0001f1f4", \
     @":flag_mp:" : @"\U0001f1f2\U0001f1f5", \
+    @":mp:" : @"\U0001f1f2\U0001f1f5", \
     @":flag_mq:" : @"\U0001f1f2\U0001f1f6", \
+    @":mq:" : @"\U0001f1f2\U0001f1f6", \
     @":flag_mr:" : @"\U0001f1f2\U0001f1f7", \
+    @":mr:" : @"\U0001f1f2\U0001f1f7", \
     @":flag_ms:" : @"\U0001f1f2\U0001f1f8", \
+    @":ms:" : @"\U0001f1f2\U0001f1f8", \
     @":flag_mt:" : @"\U0001f1f2\U0001f1f9", \
+    @":mt:" : @"\U0001f1f2\U0001f1f9", \
     @":flag_mu:" : @"\U0001f1f2\U0001f1fa", \
+    @":mu:" : @"\U0001f1f2\U0001f1fa", \
     @":flag_mv:" : @"\U0001f1f2\U0001f1fb", \
+    @":mv:" : @"\U0001f1f2\U0001f1fb", \
     @":flag_mw:" : @"\U0001f1f2\U0001f1fc", \
+    @":mw:" : @"\U0001f1f2\U0001f1fc", \
     @":flag_mx:" : @"\U0001f1f2\U0001f1fd", \
+    @":mx:" : @"\U0001f1f2\U0001f1fd", \
     @":flag_my:" : @"\U0001f1f2\U0001f1fe", \
+    @":my:" : @"\U0001f1f2\U0001f1fe", \
     @":flag_mz:" : @"\U0001f1f2\U0001f1ff", \
+    @":mz:" : @"\U0001f1f2\U0001f1ff", \
     @":flag_na:" : @"\U0001f1f3\U0001f1e6", \
+    @":na:" : @"\U0001f1f3\U0001f1e6", \
     @":flag_nc:" : @"\U0001f1f3\U0001f1e8", \
+    @":nc:" : @"\U0001f1f3\U0001f1e8", \
     @":flag_ne:" : @"\U0001f1f3\U0001f1ea", \
+    @":ne:" : @"\U0001f1f3\U0001f1ea", \
     @":flag_nf:" : @"\U0001f1f3\U0001f1eb", \
+    @":nf:" : @"\U0001f1f3\U0001f1eb", \
     @":flag_ng:" : @"\U0001f1f3\U0001f1ec", \
+    @":nigeria:" : @"\U0001f1f3\U0001f1ec", \
     @":flag_ni:" : @"\U0001f1f3\U0001f1ee", \
+    @":ni:" : @"\U0001f1f3\U0001f1ee", \
     @":flag_nl:" : @"\U0001f1f3\U0001f1f1", \
+    @":nl:" : @"\U0001f1f3\U0001f1f1", \
     @":flag_no:" : @"\U0001f1f3\U0001f1f4", \
+    @":no:" : @"\U0001f1f3\U0001f1f4", \
     @":flag_np:" : @"\U0001f1f3\U0001f1f5", \
+    @":np:" : @"\U0001f1f3\U0001f1f5", \
     @":flag_nr:" : @"\U0001f1f3\U0001f1f7", \
+    @":nr:" : @"\U0001f1f3\U0001f1f7", \
     @":flag_nu:" : @"\U0001f1f3\U0001f1fa", \
+    @":nu:" : @"\U0001f1f3\U0001f1fa", \
     @":flag_nz:" : @"\U0001f1f3\U0001f1ff", \
+    @":nz:" : @"\U0001f1f3\U0001f1ff", \
     @":flag_om:" : @"\U0001f1f4\U0001f1f2", \
+    @":om:" : @"\U0001f1f4\U0001f1f2", \
     @":flag_pa:" : @"\U0001f1f5\U0001f1e6", \
+    @":pa:" : @"\U0001f1f5\U0001f1e6", \
     @":flag_pe:" : @"\U0001f1f5\U0001f1ea", \
+    @":pe:" : @"\U0001f1f5\U0001f1ea", \
     @":flag_pf:" : @"\U0001f1f5\U0001f1eb", \
+    @":pf:" : @"\U0001f1f5\U0001f1eb", \
     @":flag_pg:" : @"\U0001f1f5\U0001f1ec", \
+    @":pg:" : @"\U0001f1f5\U0001f1ec", \
     @":flag_ph:" : @"\U0001f1f5\U0001f1ed", \
+    @":ph:" : @"\U0001f1f5\U0001f1ed", \
     @":flag_pk:" : @"\U0001f1f5\U0001f1f0", \
+    @":pk:" : @"\U0001f1f5\U0001f1f0", \
     @":flag_pl:" : @"\U0001f1f5\U0001f1f1", \
+    @":pl:" : @"\U0001f1f5\U0001f1f1", \
     @":flag_pm:" : @"\U0001f1f5\U0001f1f2", \
+    @":pm:" : @"\U0001f1f5\U0001f1f2", \
     @":flag_pn:" : @"\U0001f1f5\U0001f1f3", \
+    @":pn:" : @"\U0001f1f5\U0001f1f3", \
     @":flag_pr:" : @"\U0001f1f5\U0001f1f7", \
+    @":pr:" : @"\U0001f1f5\U0001f1f7", \
     @":flag_ps:" : @"\U0001f1f5\U0001f1f8", \
+    @":ps:" : @"\U0001f1f5\U0001f1f8", \
     @":flag_pt:" : @"\U0001f1f5\U0001f1f9", \
+    @":pt:" : @"\U0001f1f5\U0001f1f9", \
     @":flag_pw:" : @"\U0001f1f5\U0001f1fc", \
+    @":pw:" : @"\U0001f1f5\U0001f1fc", \
     @":flag_py:" : @"\U0001f1f5\U0001f1fe", \
+    @":py:" : @"\U0001f1f5\U0001f1fe", \
     @":flag_qa:" : @"\U0001f1f6\U0001f1e6", \
+    @":qa:" : @"\U0001f1f6\U0001f1e6", \
     @":flag_re:" : @"\U0001f1f7\U0001f1ea", \
+    @":re:" : @"\U0001f1f7\U0001f1ea", \
     @":flag_ro:" : @"\U0001f1f7\U0001f1f4", \
+    @":ro:" : @"\U0001f1f7\U0001f1f4", \
     @":flag_rs:" : @"\U0001f1f7\U0001f1f8", \
+    @":rs:" : @"\U0001f1f7\U0001f1f8", \
     @":flag_ru:" : @"\U0001f1f7\U0001f1fa", \
+    @":ru:" : @"\U0001f1f7\U0001f1fa", \
     @":flag_rw:" : @"\U0001f1f7\U0001f1fc", \
+    @":rw:" : @"\U0001f1f7\U0001f1fc", \
     @":flag_sa:" : @"\U0001f1f8\U0001f1e6", \
+    @":saudiarabia:" : @"\U0001f1f8\U0001f1e6", \
+    @":saudi:" : @"\U0001f1f8\U0001f1e6", \
     @":flag_sb:" : @"\U0001f1f8\U0001f1e7", \
+    @":sb:" : @"\U0001f1f8\U0001f1e7", \
     @":flag_sc:" : @"\U0001f1f8\U0001f1e8", \
+    @":sc:" : @"\U0001f1f8\U0001f1e8", \
     @":flag_sd:" : @"\U0001f1f8\U0001f1e9", \
+    @":sd:" : @"\U0001f1f8\U0001f1e9", \
     @":flag_se:" : @"\U0001f1f8\U0001f1ea", \
+    @":se:" : @"\U0001f1f8\U0001f1ea", \
     @":flag_sg:" : @"\U0001f1f8\U0001f1ec", \
+    @":sg:" : @"\U0001f1f8\U0001f1ec", \
     @":flag_sh:" : @"\U0001f1f8\U0001f1ed", \
+    @":sh:" : @"\U0001f1f8\U0001f1ed", \
     @":flag_si:" : @"\U0001f1f8\U0001f1ee", \
+    @":si:" : @"\U0001f1f8\U0001f1ee", \
     @":flag_sj:" : @"\U0001f1f8\U0001f1ef", \
+    @":sj:" : @"\U0001f1f8\U0001f1ef", \
     @":flag_sk:" : @"\U0001f1f8\U0001f1f0", \
+    @":sk:" : @"\U0001f1f8\U0001f1f0", \
     @":flag_sl:" : @"\U0001f1f8\U0001f1f1", \
+    @":sl:" : @"\U0001f1f8\U0001f1f1", \
     @":flag_sm:" : @"\U0001f1f8\U0001f1f2", \
+    @":sm:" : @"\U0001f1f8\U0001f1f2", \
     @":flag_sn:" : @"\U0001f1f8\U0001f1f3", \
+    @":sn:" : @"\U0001f1f8\U0001f1f3", \
     @":flag_so:" : @"\U0001f1f8\U0001f1f4", \
+    @":so:" : @"\U0001f1f8\U0001f1f4", \
     @":flag_sr:" : @"\U0001f1f8\U0001f1f7", \
+    @":sr:" : @"\U0001f1f8\U0001f1f7", \
     @":flag_ss:" : @"\U0001f1f8\U0001f1f8", \
+    @":ss:" : @"\U0001f1f8\U0001f1f8", \
     @":flag_st:" : @"\U0001f1f8\U0001f1f9", \
+    @":st:" : @"\U0001f1f8\U0001f1f9", \
     @":flag_sv:" : @"\U0001f1f8\U0001f1fb", \
+    @":sv:" : @"\U0001f1f8\U0001f1fb", \
     @":flag_sx:" : @"\U0001f1f8\U0001f1fd", \
+    @":sx:" : @"\U0001f1f8\U0001f1fd", \
     @":flag_sy:" : @"\U0001f1f8\U0001f1fe", \
+    @":sy:" : @"\U0001f1f8\U0001f1fe", \
     @":flag_sz:" : @"\U0001f1f8\U0001f1ff", \
+    @":sz:" : @"\U0001f1f8\U0001f1ff", \
     @":flag_ta:" : @"\U0001f1f9\U0001f1e6", \
+    @":ta:" : @"\U0001f1f9\U0001f1e6", \
     @":flag_tc:" : @"\U0001f1f9\U0001f1e8", \
+    @":tc:" : @"\U0001f1f9\U0001f1e8", \
     @":flag_td:" : @"\U0001f1f9\U0001f1e9", \
+    @":td:" : @"\U0001f1f9\U0001f1e9", \
     @":flag_tf:" : @"\U0001f1f9\U0001f1eb", \
+    @":tf:" : @"\U0001f1f9\U0001f1eb", \
     @":flag_tg:" : @"\U0001f1f9\U0001f1ec", \
+    @":tg:" : @"\U0001f1f9\U0001f1ec", \
     @":flag_th:" : @"\U0001f1f9\U0001f1ed", \
+    @":th:" : @"\U0001f1f9\U0001f1ed", \
     @":flag_tj:" : @"\U0001f1f9\U0001f1ef", \
+    @":tj:" : @"\U0001f1f9\U0001f1ef", \
     @":flag_tk:" : @"\U0001f1f9\U0001f1f0", \
+    @":tk:" : @"\U0001f1f9\U0001f1f0", \
     @":flag_tl:" : @"\U0001f1f9\U0001f1f1", \
+    @":tl:" : @"\U0001f1f9\U0001f1f1", \
     @":flag_tm:" : @"\U0001f1f9\U0001f1f2", \
+    @":turkmenistan:" : @"\U0001f1f9\U0001f1f2", \
     @":flag_tn:" : @"\U0001f1f9\U0001f1f3", \
+    @":tn:" : @"\U0001f1f9\U0001f1f3", \
     @":flag_to:" : @"\U0001f1f9\U0001f1f4", \
+    @":to:" : @"\U0001f1f9\U0001f1f4", \
     @":flag_tr:" : @"\U0001f1f9\U0001f1f7", \
+    @":tr:" : @"\U0001f1f9\U0001f1f7", \
     @":flag_tt:" : @"\U0001f1f9\U0001f1f9", \
+    @":tt:" : @"\U0001f1f9\U0001f1f9", \
     @":flag_tv:" : @"\U0001f1f9\U0001f1fb", \
+    @":tuvalu:" : @"\U0001f1f9\U0001f1fb", \
     @":flag_tw:" : @"\U0001f1f9\U0001f1fc", \
+    @":tw:" : @"\U0001f1f9\U0001f1fc", \
     @":flag_tz:" : @"\U0001f1f9\U0001f1ff", \
+    @":tz:" : @"\U0001f1f9\U0001f1ff", \
     @":flag_ua:" : @"\U0001f1fa\U0001f1e6", \
+    @":ua:" : @"\U0001f1fa\U0001f1e6", \
     @":flag_ug:" : @"\U0001f1fa\U0001f1ec", \
+    @":ug:" : @"\U0001f1fa\U0001f1ec", \
     @":flag_um:" : @"\U0001f1fa\U0001f1f2", \
+    @":um:" : @"\U0001f1fa\U0001f1f2", \
     @":flag_us:" : @"\U0001f1fa\U0001f1f8", \
+    @":us:" : @"\U0001f1fa\U0001f1f8", \
     @":flag_uy:" : @"\U0001f1fa\U0001f1fe", \
+    @":uy:" : @"\U0001f1fa\U0001f1fe", \
     @":flag_uz:" : @"\U0001f1fa\U0001f1ff", \
+    @":uz:" : @"\U0001f1fa\U0001f1ff", \
     @":flag_va:" : @"\U0001f1fb\U0001f1e6", \
+    @":va:" : @"\U0001f1fb\U0001f1e6", \
     @":flag_vc:" : @"\U0001f1fb\U0001f1e8", \
+    @":vc:" : @"\U0001f1fb\U0001f1e8", \
     @":flag_ve:" : @"\U0001f1fb\U0001f1ea", \
+    @":ve:" : @"\U0001f1fb\U0001f1ea", \
     @":flag_vg:" : @"\U0001f1fb\U0001f1ec", \
+    @":vg:" : @"\U0001f1fb\U0001f1ec", \
     @":flag_vi:" : @"\U0001f1fb\U0001f1ee", \
+    @":vi:" : @"\U0001f1fb\U0001f1ee", \
     @":flag_vn:" : @"\U0001f1fb\U0001f1f3", \
+    @":vn:" : @"\U0001f1fb\U0001f1f3", \
     @":flag_vu:" : @"\U0001f1fb\U0001f1fa", \
+    @":vu:" : @"\U0001f1fb\U0001f1fa", \
     @":flag_wf:" : @"\U0001f1fc\U0001f1eb", \
+    @":wf:" : @"\U0001f1fc\U0001f1eb", \
     @":flag_ws:" : @"\U0001f1fc\U0001f1f8", \
+    @":ws:" : @"\U0001f1fc\U0001f1f8", \
     @":flag_xk:" : @"\U0001f1fd\U0001f1f0", \
+    @":xk:" : @"\U0001f1fd\U0001f1f0", \
     @":flag_ye:" : @"\U0001f1fe\U0001f1ea", \
+    @":ye:" : @"\U0001f1fe\U0001f1ea", \
     @":flag_yt:" : @"\U0001f1fe\U0001f1f9", \
+    @":yt:" : @"\U0001f1fe\U0001f1f9", \
     @":flag_za:" : @"\U0001f1ff\U0001f1e6", \
+    @":za:" : @"\U0001f1ff\U0001f1e6", \
     @":flag_zm:" : @"\U0001f1ff\U0001f1f2", \
+    @":zm:" : @"\U0001f1ff\U0001f1f2", \
     @":flag_zw:" : @"\U0001f1ff\U0001f1fc", \
-    @":regional_indicator_z:" : @"\U0001f1ff", \
-    @":regional_indicator_y:" : @"\U0001f1fe", \
-    @":regional_indicator_x:" : @"\U0001f1fd", \
-    @":regional_indicator_w:" : @"\U0001f1fc", \
-    @":regional_indicator_v:" : @"\U0001f1fb", \
-    @":regional_indicator_u:" : @"\U0001f1fa", \
-    @":regional_indicator_t:" : @"\U0001f1f9", \
-    @":regional_indicator_s:" : @"\U0001f1f8", \
-    @":regional_indicator_r:" : @"\U0001f1f7", \
-    @":regional_indicator_q:" : @"\U0001f1f6", \
-    @":regional_indicator_p:" : @"\U0001f1f5", \
-    @":regional_indicator_o:" : @"\U0001f1f4", \
-    @":regional_indicator_n:" : @"\U0001f1f3", \
-    @":regional_indicator_m:" : @"\U0001f1f2", \
-    @":regional_indicator_l:" : @"\U0001f1f1", \
-    @":regional_indicator_k:" : @"\U0001f1f0", \
-    @":regional_indicator_j:" : @"\U0001f1ef", \
-    @":regional_indicator_i:" : @"\U0001f1ee", \
-    @":regional_indicator_h:" : @"\U0001f1ed", \
-    @":regional_indicator_g:" : @"\U0001f1ec", \
-    @":regional_indicator_f:" : @"\U0001f1eb", \
-    @":regional_indicator_e:" : @"\U0001f1ea", \
-    @":regional_indicator_d:" : @"\U0001f1e9", \
-    @":regional_indicator_c:" : @"\U0001f1e8", \
-    @":regional_indicator_b:" : @"\U0001f1e7", \
-    @":regional_indicator_a:" : @"\U0001f1e6", \
+    @":zw:" : @"\U0001f1ff\U0001f1fc", \
 }
