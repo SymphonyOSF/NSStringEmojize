@@ -9,6 +9,12 @@
 #import "NSString+Emojize.h"
 #import "emojis.h"
 
+BOOL NSRangeIntersectsRange(NSRange range1, NSRange range2) {
+    if (range1.location > range2.location + range2.length) return NO;
+    if (range2.location > range1.location + range1.length) return NO;
+    return YES;
+}
+
 @implementation NSString (Emojize)
 
 - (NSDictionary *)emojizedString
@@ -41,16 +47,16 @@
             
             NSRange range = result.range;
             if (range.location != NSNotFound) {
-                NSRange intersectionRange = NSMakeRange(0, 0);
+                BOOL rangesIntersects = NO;
                 for (NSTextCheckingResult *urlMatch in urlMatches) {
-                    intersectionRange = NSIntersectionRange(urlMatch.range, range);
-                    if (intersectionRange.length <= 0) {
+                    rangesIntersects = NSRangeIntersectsRange(urlMatch.range, range);
+                    if (rangesIntersects) {
                         break;
                     }
                 }
                 NSString *code = [text substringWithRange:range];
                 NSString *unicode = self.emojiAliases[code];
-                if (unicode && !intersectionRange.length > 0) {
+                if (unicode && !rangesIntersects) {
                     resultText = [resultText stringByReplacingOccurrencesOfString:code withString:unicode];
                     [matchingRanges addObject:[NSValue valueWithRange: range]];
                     //range.length with be the number of characters reduced
