@@ -57,7 +57,7 @@ BOOL NSRangeIntersectsRange(NSRange range1, NSRange range2) {
                 NSString *code = [text substringWithRange:range];
                 NSString *unicode = self.emojiAliases[code];
                 if (unicode && !rangesIntersects) {
-                    resultText = [resultText stringByReplacingOccurrencesOfString:code withString:unicode];
+                    resultText = [resultText stringByReplacingCharactersInRange:range withString:unicode];
                     [matchingRanges addObject:[NSValue valueWithRange: range]];
                     //range.length with be the number of characters reduced
                     range.length -= [unicode length];
