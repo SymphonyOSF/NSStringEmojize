@@ -40,11 +40,9 @@ BOOL NSRangeIntersectsRange(NSRange range1, NSRange range2) {
     __block NSString *resultText = text;
     NSRange matchingRange = NSMakeRange(0, [resultText length]);
     NSArray<NSTextCheckingResult *> *urlMatches = [urlDetector matchesInString:text options:NSMatchingReportCompletion range:matchingRange];
-    [regex enumerateMatchesInString:resultText options:NSMatchingReportCompletion range:matchingRange usingBlock:^(NSTextCheckingResult *result, NSMatchingFlags flags, BOOL *stop) {
-        if ( result &&
-            ([result resultType] == NSTextCheckingTypeRegularExpression) &&
-            !(flags & NSMatchingInternalError) ) {
-            
+    NSArray<NSTextCheckingResult *> *regexMatches = [regex matchesInString:resultText options:NSMatchingReportCompletion range:matchingRange];
+    [regexMatches enumerateObjectsWithOptions:NSEnumerationReverse usingBlock:^(NSTextCheckingResult * _Nonnull result, NSUInteger idx, BOOL * _Nonnull stop) {
+        if (result && ([result resultType] == NSTextCheckingTypeRegularExpression)) {
             NSRange range = result.range;
             if (range.location != NSNotFound) {
                 BOOL rangesIntersects = NO;
