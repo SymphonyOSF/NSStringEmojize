@@ -56,10 +56,10 @@ BOOL NSRangeIntersectsRange(NSRange range1, NSRange range2) {
                 NSString *unicode = self.emojiAliases[code];
                 if (unicode && !rangesIntersects) {
                     resultText = [resultText stringByReplacingCharactersInRange:range withString:unicode];
-                    [matchingRanges addObject:[NSValue valueWithRange: range]];
+                    [matchingRanges insertObject:[NSValue valueWithRange: range] atIndex:0];
                     //range.length with be the number of characters reduced
                     range.length -= [unicode length];
-                    [matchingLengthChanges addObject:[NSValue valueWithRange: range]];
+                    [matchingLengthChanges insertObject:[NSValue valueWithRange: range] atIndex:0];
                 }
             }
         }
